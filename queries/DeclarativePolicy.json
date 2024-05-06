@@ -1,0 +1,21 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		declarativepolicy {
+			_id,
+			complies_with_standard_ineligible_findings,
+			contact_email,
+			created_at,
+			has_open_scope,
+			id,
+			introduction,
+			pays_within_one_month,
+			platform_standards_exclusions,
+			protected_by_gold_standard_safe_harbor,
+			standard_ineligible_findings_exclusions,
+			updated_at,
+		}
+	}"
+}

@@ -1,0 +1,22 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		automationtemplateedge {
+			node {
+				_id,
+				arn,
+				footer,
+				from,
+				handler,
+				header,
+				id,
+				name,
+				optional_events,
+				required_events,
+				to,
+			},
+		}
+	}"
+}

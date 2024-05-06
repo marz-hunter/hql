@@ -1,0 +1,17 @@
+{
+    "variables": {
+        "input0": {
+            "clientMutationId": "0",
+            "errors": "",
+            "success": "",
+            "was_successful": ""
+        }
+    },
+    "query": "mutation ($input0:CancelTwoFactorAuthenticationResetInput!) {
+		cancelTwoFactorAuthenticationReset(input:$input0) {
+			clientMutationId,
+			success,
+			was_successful,
+		}
+	}"
+}

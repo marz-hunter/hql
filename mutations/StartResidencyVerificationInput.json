@@ -1,0 +1,17 @@
+{
+    "variables": {
+        "input0": {
+            "clientMutationId": "0",
+            "errors": "",
+            "url": "",
+            "was_successful": ""
+        }
+    },
+    "query": "mutation ($input0:StartResidencyVerificationInput!) {
+		startResidencyVerification(input:$input0) {
+			clientMutationId,
+			url,
+			was_successful,
+		}
+	}"
+}

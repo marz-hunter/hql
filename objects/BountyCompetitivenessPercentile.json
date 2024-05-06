@@ -1,0 +1,48 @@
+{
+    "data": {
+        "__type": {
+            "name": "BountyCompetitivenessPercentile",
+            "description": null,
+            "fields": [
+                {
+                    "name": "critical",
+                    "type": {
+                        "name": "BountyCompetitivenessData",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "high",
+                    "type": {
+                        "name": "BountyCompetitivenessData",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "id",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "ID",
+                            "kind": "SCALAR"
+                        }
+                    }
+                },
+                {
+                    "name": "status",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "String",
+                            "kind": "SCALAR"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

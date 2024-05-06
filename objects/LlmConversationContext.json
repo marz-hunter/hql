@@ -1,0 +1,65 @@
+{
+    "data": {
+        "__type": {
+            "name": "LlmConversationContext",
+            "description": "An LLM conversation context",
+            "fields": [
+                {
+                    "name": "cve_ids",
+                    "type": {
+                        "name": null,
+                        "kind": "LIST",
+                        "ofType": {
+                            "name": null,
+                            "kind": "NON_NULL"
+                        }
+                    }
+                },
+                {
+                    "name": "cwe_ids",
+                    "type": {
+                        "name": null,
+                        "kind": "LIST",
+                        "ofType": {
+                            "name": null,
+                            "kind": "NON_NULL"
+                        }
+                    }
+                },
+                {
+                    "name": "id",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "ID",
+                            "kind": "SCALAR"
+                        }
+                    }
+                },
+                {
+                    "name": "report_ids",
+                    "type": {
+                        "name": null,
+                        "kind": "LIST",
+                        "ofType": {
+                            "name": null,
+                            "kind": "NON_NULL"
+                        }
+                    }
+                },
+                {
+                    "name": "team_handles",
+                    "type": {
+                        "name": null,
+                        "kind": "LIST",
+                        "ofType": {
+                            "name": null,
+                            "kind": "NON_NULL"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

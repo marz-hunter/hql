@@ -1,0 +1,30 @@
+{
+    "variables": {
+        "input0": {
+            "clientMutationId": "0",
+            "domain_ownership": "",
+            "errors": "",
+            "was_successful": ""
+        }
+    },
+    "query": "mutation ($input0:VerifyDomainOwnershipInput!) {
+		verifyDomainOwnership(input:$input0) {
+			clientMutationId,
+			domain_ownership {
+				_id,
+				created_at,
+				domain,
+				id,
+				may_cancel,
+				secret,
+				state,
+				updated_at,
+				verification_content,
+				verification_method,
+				verification_method_label,
+				verified_at,
+			},
+			was_successful,
+		}
+	}"
+}

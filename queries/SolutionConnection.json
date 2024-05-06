@@ -1,0 +1,32 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		solutionconnection {
+			edges {
+				node {
+					_id,
+					custom_fields,
+					description,
+					id,
+					name,
+					test_button_enabled,
+					title,
+					url,
+				},
+			},
+			nodes {
+				_id,
+				custom_fields,
+				description,
+				id,
+				name,
+				test_button_enabled,
+				title,
+				url,
+			},
+			total_count,
+		}
+	}"
+}

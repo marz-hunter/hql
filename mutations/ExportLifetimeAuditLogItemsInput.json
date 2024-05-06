@@ -1,0 +1,15 @@
+{
+    "variables": {
+        "input0": {
+            "clientMutationId": "0",
+            "errors": "",
+            "was_successful": ""
+        }
+    },
+    "query": "mutation ($input0:ExportLifetimeAuditLogItemsInput!) {
+		exportLifetimeAuditLogItems(input:$input0) {
+			clientMutationId,
+			was_successful,
+		}
+	}"
+}

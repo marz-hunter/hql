@@ -1,0 +1,16 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		hackerinvitationsprofile {
+			active_time_off,
+			bounty_programs_only,
+			exclude_crypto_programs,
+			id,
+			min_bounty,
+			receive_invites,
+			time_off_ends_at,
+		}
+	}"
+}

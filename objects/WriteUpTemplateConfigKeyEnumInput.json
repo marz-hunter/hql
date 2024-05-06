@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "WriteUpTemplateConfigKeyEnumInput",
+            "description": "Write up template key enum",
+            "fields": null
+        }
+    }
+}

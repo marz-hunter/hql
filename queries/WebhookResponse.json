@@ -1,0 +1,17 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		webhookresponse {
+			_id,
+			created_at,
+			execution_time,
+			id,
+			response_body,
+			response_code,
+			response_headers,
+			success,
+		}
+	}"
+}

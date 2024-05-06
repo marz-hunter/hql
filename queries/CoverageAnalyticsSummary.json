@@ -1,0 +1,24 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		coverageanalyticssummary {
+			finders,
+			finders_list,
+			group_by_val,
+			hits,
+			http_host,
+			id,
+			last_path_level,
+			last_seen,
+			minutes,
+			report_count,
+			report_ids_list,
+			url_count,
+			user_id,
+			username,
+			username_list,
+		}
+	}"
+}

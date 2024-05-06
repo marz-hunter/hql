@@ -1,0 +1,46 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		updatevdplaunchconfigurationpolicypayload {
+			clientMutationId,
+			errors(first:5) {
+				edges {
+					node {
+						error_code,
+						field,
+						id,
+						message,
+						type,
+					},
+				},
+				nodes {
+					error_code,
+					field,
+					id,
+					message,
+					type,
+				},
+				total_count,
+			},
+			vdp_launch_configuration {
+				current_configuration_step,
+				has_changed_brand_promise,
+				has_changed_disclosure_policies,
+				has_changed_out_of_scope,
+				has_changed_safe_harbor,
+				has_changed_scope,
+				id,
+				launch_at,
+				launch_requested_at,
+				policy_brand_promise,
+				policy_disclosure_policies,
+				policy_out_of_scope,
+				policy_safe_harbor,
+				policy_scope,
+			},
+			was_successful,
+		}
+	}"
+}

@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "HackerTriageRatingStatusEnum",
+            "description": "Hacker triage rating status",
+            "fields": null
+        }
+    }
+}

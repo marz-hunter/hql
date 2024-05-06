@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "AnalyticsWhereInputType",
+            "description": null,
+            "fields": null
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "variables": {
+        "input0": {
+            "clientMutationId": "0",
+            "errors": "",
+            "last_four": "",
+            "was_successful": ""
+        }
+    },
+    "query": "mutation ($input0:CompleteCreditCardFundingInput!) {
+		completeCreditCardFunding(input:$input0) {
+			clientMutationId,
+			last_four,
+			was_successful,
+		}
+	}"
+}

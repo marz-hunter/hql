@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "CoinbaseCurrencyEnum",
+            "description": "Valid types of crypto payout via Coinbase",
+            "fields": null
+        }
+    }
+}

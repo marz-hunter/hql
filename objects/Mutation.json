@@ -1,0 +1,4905 @@
+{
+    "data": {
+        "__type": {
+            "name": "Mutation",
+            "description": null,
+            "fields": [
+                {
+                    "name": "acceptInvitation",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "AcceptInvitationPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "acceptReportCollaboratorInvitation",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "AcceptReportCollaboratorInvitationPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "acceptSpotCheckUser",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "AcceptSpotCheckUserPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "acknowledgeProgramHealthAcknowledgement",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "AcknowledgeProgramHealthAcknowledgementPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "addAsProgramAdmin",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "AddAsProgramAdminPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "addAssetsToStructuredScopes",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "AddAssetsToStructuredScopesPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "addCreditCard",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "AddCreditCardPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "addReportParticipant",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "AddReportParticipantPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "addTagToAssets",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "AddTagToAssetsPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "anonymouslyAcceptForwardedEmailInvitation",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "AnonymouslyAcceptForwardedEmailInvitationPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "approveReportRetest",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "ApproveReportRetestPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "approveSpotCheckReport",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "ApproveSpotCheckReportPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "archiveMultipleAssets",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "ArchiveMultipleAssetPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "archivePentestOpportunity",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "ArchivePentestOpportunityPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "archiveStructuredScope",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "ArchiveStructuredScopePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "assignCredential",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "AssignCredentialPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "assignPentestCheckPentesters",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "AssignPentestCheckPentestersPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "autosavePentestOpportunity",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "AutosavePentestOpportunityPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "bulkArchiveScopes",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "BulkArchiveScopesPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "bulkDestroyOrganizationMemberGroups",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "BulkDestroyOrganizationMemberGroupsPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "bulkReviewAssets",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "BulkReviewAssetsPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "bulkUnarchiveAssets",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "BulkUnarchiveAssetsPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "bulkUpdateScopes",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "BulkUpdateScopesPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "cancelDomainOwnership",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CancelDomainOwnershipPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "cancelHackerInvitation",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CancelHackerInvitationPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "cancelOrganizationMemberInvitation",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CancelOrganizationMemberInvitationPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "cancelReportDisclosureRequest",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CancelReportDisclosureRequestPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "cancelTwoFactorAuthenticationReset",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CancelTwoFactorAuthenticationResetPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "changeReportPentest",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "ChangeReportPentestPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "claimAssetCredential",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "ClaimAssetCredentialPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "claimReportRetest",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "ClaimReportRetestPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "clearTriageInboxItemsOwnership",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "ClearTriageInboxItemsOwnershipPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "clonePentest",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "ClonePentestPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "completeCreditCardFunding",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CompleteCreditCardFundingPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "completeReportRetest",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CompleteReportRetestPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "completeReportRetestUser",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CompleteReportRetestUserPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "completeTutorial",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CompleteTutorialPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "copilot",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CopilotPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "copilotContinue",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CopilotContinuePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "copilotRegenerate",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CopilotRegeneratePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "copilotUpdate",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CopilotUpdatePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "copilotUpdateMessageIndex",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CopilotUpdateMessageIndexPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createActivityComment",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateActivityCommentPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createAnalyticsReport",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateAnalyticsReportPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createAsmTag",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateAsmTagPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createAsmTagCategory",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateAsmTagCategoryPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createAsset",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateAssetPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createAutomation",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateAutomationPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createBounty",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateBountyPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createBountySuggestion",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateBountySuggestionPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createBountyTableEstimator",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateBountyTableEstimatorPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createCampaign",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateCampaignPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createCoinbasePayoutPreference",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateCoinbasePayoutPreferencePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createCommonResponse",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateCommonResponsePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createCredential",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateCredentialPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createCredentialInquiry",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateCredentialInquiryPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createCredentialInquiryResponse",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateCredentialInquiryResponsePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createCurrencycloudBankTransferPayoutPreference",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateCurrencycloudBankTransferPayoutPreferencePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createCustomFieldAttribute",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateCustomFieldAttributePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createCveRequest",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateCveRequestPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createCvss3Point0Severity",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateCvss3Point0SeverityPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createCvss3Point1Severity",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateCvss3Point1SeverityPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createDemo",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateDemoPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createDomainOwnership",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateDomainOwnershipPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createEligibilitySetting",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateEligibilitySettingPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createExternalReport",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateExternalReportPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createGatewayCloudflaredTunnel",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateGatewayCloudflaredTunnelPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createGatewayComplianceLogRequest",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateGatewayComplianceLogRequestPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createHackerReportTemplate",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateHackerReportTemplatePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createHackerTriageRating",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateHackerTriageRatingPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createIncident",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateIncidentPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createIssueTrackerReferenceId",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateIssueTrackerReferenceIdPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createJiraOauthUrl",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateJiraOauthUrlPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createJiraWebhookToken",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateJiraWebhookTokenPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createLanguageModelResolverJob",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateLanguageModelResolverJobPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createLeaveProgramSurveyAnswer",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateLeaveProgramSurveyAnswerPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createLlmApp",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateLlmAppPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createMailingAddress",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateMailingAddressPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createManualSeverity",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateManualSeverityPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createOrUpdateHackerCertification",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateOrUpdateHackerCertificationPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createOrUpdateHackeroneToJiraEventsConfiguration",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateOrUpdateHackeroneToJiraEventsConfigurationPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createOrUpdateJiraIntegration",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateOrUpdateJiraIntegrationPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createOrUpdatePentest",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateOrUpdatePentestPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createOrUpdatePentesterProfile",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateOrUpdatePentesterProfilePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createOrUpdateSecurityEmailForwarding",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateOrUpdateSecurityEmailForwardingPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createOrUpdateUserSpokenLanguage",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateOrUpdateSpokenLanguagePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createOrganizationApiToken",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateOrganizationApiTokenPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createOrganizationInbox",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateOrganizationInboxPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createOrganizationMemberGroup",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateOrganizationMemberGroupPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createOrganizationMemberInvitation",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateOrganizationMemberInvitationPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createOrganizationMemberInvitations",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateOrganizationMemberInvitationsPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createOrganizationSamlProvider",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateOrganizationSamlProviderPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createOrganizationSamlTest",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateOrganizationSamlTestPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createOrganizationScimUser",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateOrganizationScimUserPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createOrganizationSolutionInstance",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateOrganizationSolutionInstancePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createPaypalPreference",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreatePaypalPreferencePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createPentestOpportunity",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreatePentestOpportunityPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createPentestStructuredScope",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreatePentestStructuredScopePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createPentester",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreatePentesterPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createProgramBounty",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateProgramBountyPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createProgramSatisfactionSurveyAnswer",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateProgramSatisfactionSurveyAnswerPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createRejectionSurveyAnswer",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateRejectionSurveyAnswerPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createReport",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateReportPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createReportSummary",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateReportSummaryPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createSeverityFromHash",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateSeverityFromHashPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createSlackPipeline",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateSlackPipelinePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createSolutionInstance",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateSolutionInstancePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createSpotCheck",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateSpotCheckPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createSpotCheckReport",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateSpotCheckReportPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createStoredQuery",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateStoredQueryPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createStructuredScope",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateStructuredScopePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createSwag",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateSwagPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createTaxForm",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateTaxFormPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createTrayEscalation",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateTrayEscalationPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createTriageRating",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateTriageRatingPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createTrigger",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateTriggerPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createTwoFactorAuthenticationCredentials",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateTwoFactorAuthenticationCredentialsPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createUserBountiesReport",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateUserBountiesReportPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createUserFlag",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateUserFlagPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createUserLufthansaAccount",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateUserLufthansaAccountPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createUserPayoutsReport",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateUserPayoutsReportPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createUserTwoFactorReset",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateUserTwoFactorResetPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createUserVerificationLetterReport",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateUserVerificationLetterReportPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createVpnCredentials",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateVpnCredentialsPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createWebhook",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateWebhookPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "createWriteUpPreview",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CreateWriteUpPreviewPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "deleteAgileAcceleratorIntegration",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "DeleteAgileAcceleratorIntegrationPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "deleteAnalyticsReport",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "DeleteAnalyticsReportPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "deleteAsmTag",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "DeleteAsmTagPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "deleteBiDirectionalJiraIntegration",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "DeleteBiDirectionalJiraIntegrationPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "deleteCredential",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "DeleteCredentialPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "deleteCredentialInquiryInstruction",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "DeleteCredentialInquiryInstructionPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "deleteCredentialInquiryResponse",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "DeleteCredentialInquiryResponsePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "deleteGatewayCloudflaredTunnel",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "DeleteGatewayCloudflaredTunnelPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "deleteHackerReportTemplate",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "DeleteHackerReportTemplatePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "deleteHackerSkill",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "DeleteHackerSkillPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "deleteIbbBountyTable",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "DeleteIbbBountyTablePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "deleteJiraWebhook",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "DeleteJiraWebhookPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "deleteMailingAddress",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "DeleteMailingAddressPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "deletePentest",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "DeletePentestPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "deletePentestOpportunity",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "DeletePentestOpportunityPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "deletePhabricatorIntegration",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "DeletePhabricatorIntegrationPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "deleteSlackPipeline",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "DeleteSlackPipelinePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "deleteStoredQuery",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "DeleteStoredQueryPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "deleteTeamMember",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "DeleteTeamMemberPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "deleteTeamSlackIntegration",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "DeleteTeamSlackIntegrationPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "deleteTrigger",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "DeleteTriggerPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "deleteUnclaimedReportWithDependencies",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "DeleteUnclaimedReportWithDependenciesPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "deleteUserLufthansaAccount",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "DeleteUserLufthansaAccountPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "deleteUserSession",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "DeleteUserSessionPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "deleteUserSpokenLanguage",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "DeleteUserSpokenLanguagePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "deleteWebhook",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "DeleteWebhookPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "destroyAllConversations",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "DestroyAllConversationsPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "destroyCommonResponse",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "DestroyCommonResponsePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "destroyConversation",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "DestroyConversationPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "destroyEligibilitySetting",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "DestroyEligibilitySettingPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "destroyOrganizationApiToken",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "DestroyOrganizationApiTokenPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "destroyOrganizationInbox",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "DestroyOrganizationInboxPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "destroyOrganizationMemberGroup",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "DestroyOrganizationMemberGroupPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "destroyPentestStructuredScope",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "DestroyPentestStructuredScopePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "destroyScopeAttachments",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "DestroyScopeAttachmentsPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "destroyTwoFactorAuthenticationCredentials",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "DestroyTwoFactorAuthenticationCredentialsPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "destroyUpvote",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "DestroyUpvotePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "destroyUserDevice",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "DestroyUserDevicePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "detectSensitiveReportData",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "DetectSensitiveReportDataPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "disableOrganizationSamlProvider",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "DisableOrganizationSamlProviderPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "disableSmartRewards",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "DisableSmartRewardsPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "dismissProgramHealthAcknowledgement",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "DismissProgramHealthAcknowledgementPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "dismissReport",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "DismissReportPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "dismissTriageInboxItems",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "DismissTriageInboxItemsPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "dismissTriageMeta",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "DismissTriageMetaPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "editAsmTag",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "EditAsmTagPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "editAssetCredential",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "EditAssetCredentialPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "editSpotCheckReport",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "EditSpotCheckReportPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "editTeamName",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "EditTeamNamePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "enableLegacyOrganizationFeatureMutation",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "EnableLegacyOrganizationFeatureMutationPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "enableLegacyTeamFeatureMutation",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "EnableLegacyTeamFeatureMutationPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "enableOrganizationSamlProvider",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "EnableAndMigrateUsersOrganizationSamlProviderPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "enableSmartRewards",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "EnableSmartRewardsPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "escalateReport",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "EscalateReportPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "escalateToJira",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "EscalateToJiraPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "exportAssets",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "ExportAssetsPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "exportLifetimeAuditLogItems",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "ExportLifetimeAuditLogItemsPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "exportLifetimeReports",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "ExportLifetimeReportsPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "exportOrganizationAuditLog",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "ExportOrganizationAuditLogPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "exportOrganizationSamlDataRequest",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "ExportOrganizationSamlDataFilePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "exportReportsForPentest",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "ExportReportsForPentestPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "exportRisks",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "ExportRisksPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "forgetFacebookCredentials",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "ForgetFacebookCredentialPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "generateTaxFormUrl",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "GenerateTaxFormUrlPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "hackerCommentClassificationNotUseful",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "HackerCommentClassificationNotUsefulPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "hackerCommentClassificationPostComment",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "HackerCommentClassificationPostCommentPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "id",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "ID",
+                            "kind": "SCALAR"
+                        }
+                    }
+                },
+                {
+                    "name": "importAssetsCsv",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "ImportAssetsCsvMutationPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "invalidateCitizenshipVerification",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "InvalidateCitizenshipVerificationPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "invalidateResidencyVerification",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "InvalidateResidencyVerificationPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "inviteEligibleHackers",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "InviteEligibleHackersPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "launchCampaign",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "LaunchCampaignPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "launchTeam",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "LaunchTeamPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "launchTeamPublicly",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "LaunchTeamPubliclyPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "leavePrivateProgram",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "LeavePrivateProgramPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "leaveReportRetestUser",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "LeaveReportRetestUserPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "linkReport",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "LinkReportPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "lockReport",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "LockReportPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "mapSlackUser",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "MapSlackUserPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "markReportMetadataAsReviewed",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "MarkReportMetadataAsReviewedPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "markSwagAsSent",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "MarkSwagAsSentPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "moveScopesToNewPentestOpportunity",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "MoveScopesToNewPentestOpportunityPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "newConversation",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "NewConversationPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "optInForFeatureMutation",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "OptInForFeatureMutationPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "optOutForFeatureMutation",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "OptOutForFeatureMutationPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "payAllDuplicateReports",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "PayAllDuplicateReportsPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "pingPageActivity",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "PingPageActivityPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "programHealthAcknowledgementSeen",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "ProgramHealthAcknowledgementSeenPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "publishCatFact",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "PublishCatFactPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "publishPentestWriteUp",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "PublishPentestWriteUpPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "reassignReportToTeam",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "ReassignReportToTeamPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "recallBounty",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "RecallBountyMutationPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "reclaimReportRetest",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "ReclaimReportRetestPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "recreatePentestAccessToken",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "RecreatePentestAccessTokenPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "redactReport",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "RedactReportPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "refreshOrganizationScimUser",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "RefreshOrganizationScimUserPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "regenerateCalendarToken",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "RegenerateCalendarTokenPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "registerUserDevice",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "RegisterUserDevicePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "rejectInvitation",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "RejectInvitationPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "rejectReportRetest",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "RejectReportRetestPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "rejectSpotCheckReport",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "RejectSpotCheckReportPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "rejectSpotCheckUser",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "RejectSpotCheckUserPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "removeAssetsFromStructuredScopes",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "RemoveAssetsFromStructuredScopesPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "removeBountyTable",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "RemoveBountyTablePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "removeCampaign",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "RemoveCampaignPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "removeGroupFromOrganizationInbox",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "RemoveGroupFromOrganizationInboxPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "removeHackerCertification",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "RemoveHackerCertificationPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "removeHackerFromProgram",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "RemoveHackerFromProgramPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "removeOrganizationMemberGroupEligibilitySetting",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "RemoveOrganizationMemberGroupEligibilitySettingPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "removeOrganizationSolutionInstance",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "RemoveOrganizationSolutionInstancePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "removeReference",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "RemoveReferencePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "removeSolutionInstance",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "RemoveSolutionInstancePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "removeTagFromAsset",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "RemoveTagFromAssetPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "removeUserFromOrganization",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "RemoveUserFromOrganizationPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "removeUserFromOrganizationMemberGroup",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "RemoveUserFromOrganizationMemberGroupPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "removeUserOpportunitiesFeedback",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "RemoveUserOpportunitiesFeedbackPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "repositionCustomFieldAttribute",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "RepositionCustomFieldAttributePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "requestBbpLaunch",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "RequestBbpLaunchPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "requestConsumptionSubscriptionHours",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "RequestConsumptionSubscriptionHoursPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "requestIntegrationClone",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "RequestIntegrationCloneMutationPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "requestPentestInfo",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "RequestPentestInfoPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "requestReportDisclosure",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "RequestReportDisclosurePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "requestTeamReview",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "RequestTeamReviewPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "requestToLaunchPentest",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "RequestToLaunchPentestPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "requestVdpLaunch",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "RequestVdpLaunchPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "resetAllCredentials",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "ResetAllCredentialsPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "resumeGatewayProgram",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "ResumeGatewayProgramPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "resumeGatewayProgramForUsers",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "ResumeGatewayProgramForUsersPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "reviewCompletePentestOpportunity",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "ReviewCompletePentestOpportunityPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "reviewPentestOpportunity",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "ReviewPentestOpportunityPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "revokeAssetCredential",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "RevokeAssetCredentialPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "revokePentester",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "RevokePentesterPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "revokeUserApiToken",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "RevokeUserApiTokenPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "saveCollaborators",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "SaveCollaboratorsMutationPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "savePentestCheckResult",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "SavePentestCheckResultPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "saveUnverifiableCitizenship",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "SaveUnverifiableCitizenshipVerificationPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "saveUnverifiableResidency",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "SaveUnverifiableResidencyVerificationPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "setNoiseReason",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "SetNoiseReasonPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "setupPentest",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "SetupPentestPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "shareReportViaEmail",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "ShareReportViaEmailPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "signRulesOfEngagement",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "SignRulesOfEngagementPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "startBackgroundCheck",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "StartBackgroundCheckPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "startCitizenshipVerification",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "StartCitizenshipVerificationPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "startIdVerification",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "StartIdVerificationPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "startResidencyVerification",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "StartResidencyVerificationPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "startVpnInstance",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "StartVpnInstancePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "stopVpnInstance",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "StopVpnInstancePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "storeTriageComplexityRating",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "StoreTriageComplexityRatingPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "storeUserInputDraft",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "StoreUserInputDraftPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "submitPayLaterRequest",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "SubmitPayLaterRequestPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "submitPentestOpportunity",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "SubmitPentestOpportunityPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "suggestReportStructuredScopes",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "SuggestReportStructuredScopesPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "suggestReportWeaknesses",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "SuggestReportWeaknessesPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "suspendGatewayProgram",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "SuspendGatewayProgramPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "suspendGatewayProgramForUsers",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "SuspendGatewayProgramForUsersPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "swapOrganizationSamlProviderCertificates",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "SwapOrganizationSamlProviderCertificatesPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "teamSearchStatistic",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "TeamSearchStatisticMutationPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "testEmailForwarding",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "TestEmailForwardingPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "testSolutionInstance",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "TestSolutionInstancePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "testWebhook",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "TestWebhookRequestPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "toggleArchivedCustomFieldAttribute",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "ToggleArchivedCustomFieldAttributePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "toggleCollaborationWithNonWhitelistedHackers",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "ToggleCollaborationWithNonWhitelistedHackersPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "toggleFollowUserMutation",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "ToggleFollowUserPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "toggleHai",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "ToggleHaiPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "toggleOrganizationMemberAdmin",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "ToggleOrganizationMemberAdminPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "toggleSurveyRatingItemVisibleOnUserProfile",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "ToggleSurveyRatingItemVisibleOnUserProfilePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "toggleTeamUpdatesSubscription",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "ToggleTeamUpdatesSubscriptionPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "toggleTrigger",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "ToggleTriggerPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "trackerIncrement",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "TrackerIncrementPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "translate",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "TranslatePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "unarchiveStructuredScope",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UnarchiveStructuredScopePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "unclaimReportRetest",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UnclaimReportRetestPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateAccountRecoveryPhoneNumber",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateAccountRecoveryPhoneNumberPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateActivity",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateActivityPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateAnalyticsReport",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateAnalyticsReportPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateAsset",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateAssetPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateAssetCvssScore",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateAssetCvssScorePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateAssetDescription",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateAssetDescriptionPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateAssetIdentifier",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateAssetIdentifierPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateAssetMaxSeverity",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateAssetMaxSeverityPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateAssetReference",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateAssetReferencePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateAssigneeToGroup",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateAssigneeToGroupPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateAssigneeToNobody",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateAssigneeToNobodyPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateAssigneeToUser",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateAssigneeToUserPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateAttachmentToInternalOnly",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateAttachmentToInternalOnlyPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateAutomaticInvites",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateAutomaticInvitesPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateAutomationActive",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateAutomationActivePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateBbpLaunchConfigurationCurrentStep",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateBbpLaunchConfigurationCurrentStepPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateBbpLaunchConfigurationPolicy",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateBbpLaunchConfigurationPolicyPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateBookmarkedTeam",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateBookmarkedTeamPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateBountyTable",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateBountyTablePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateCampaign",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateCampaignPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateCommonResponse",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateCommonResponsePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateCredentialInquiry",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateCredentialInquiryPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateCredentialInstruction",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateCredentialInstructionPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateCustomFieldAttribute",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateCustomFieldAttributePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateCveIds",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateCveIdsPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateCveRequest",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateCveRequestPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateDataOverridesWriteUp",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateDataOverridesWriteUpPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateEligibilitySetting",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateEligibilitySettingPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateEmbeddedSubmissionDomains",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateEmbeddedSubmissionDomainPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateEmbeddedSubmissionForm",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateEmbeddedSubmissionFormPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateGatewayIpsecSettings",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateGatewayIpsecSettingsPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateGatewayProgramState",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateGatewayProgramStatePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateGatewayScopes",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateGatewayScopesPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateGatewayUserState",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateGatewayUserStatePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateHackTheBoxStudentId",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateHackTheBoxStudentIdPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateHackerPreference",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateHackerPreferencePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateHackerPreferencesAssetTypes",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateHackerPreferencesAssetTypesPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateHackerPreferencesWeaknesses",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateHackerPreferencesWeaknessesPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateHackerReportTemplate",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateHackerReportTemplatePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateHackerSkills",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateHackerSkillsPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateHackerTriageRating",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateHackerTriageRatingPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateIbbBountyTable",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateIbbBountyTablePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateInvitationPreferences",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateInvitationPreferencesPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateJiraWebhook",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateJiraWebhookPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateLastViewedNewFeaturesAt",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateLastViewedNewFeaturesAtPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateLlmApp",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateLlmAppPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateLlmConversationMessage",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateLlmConversationMessagePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateMe",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateMePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateNotificationDeliveryPreference",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateNotificationDeliveryPreferencePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateNotificationPreferences",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateNotificationPreferencesPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateNotifications",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateNotificationsMutationPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateOrganizationInbox",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateOrganizationInboxPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateOrganizationLockedSamlProvider",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "updateOrganizationLockedgSamlProviderPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateOrganizationMemberGroup",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateOrganizationMemberGroupPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateOrganizationProfile",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateOrganizationProfilePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateOrganizationSamlProviderAlternativeCertificate",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateOrganizationSamlProviderAlternativeCertificatePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateOrganizationSolutionInstance",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateOrganizationSolutionInstancePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateOrganizationTestingSamlProvider",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateOrganizationTestingSamlProviderPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateOrganizationUser",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateOrganizationUserPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updatePaymentsUser",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdatePaymentsUserMutationPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updatePentest",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdatePentestPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updatePentestFormAnswer",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdatePentestFormAnswerPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updatePentestOpportunityFirstViewedAt",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdatePentestOpportunityFirstViewedAtPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updatePentestStructuredScope",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdatePentestStructuredScopePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updatePentestStructuredScopeWithMethodologies",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdatePentestStructuredScopeWithMethodologiesPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updatePentestSummaryForm",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdatePentestSummaryFormPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updatePentestTask",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdatePentestTaskPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updatePhabricatorIntegration",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdatePhabricatorIntegrationPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateProgramPolicy",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateProgramPolicyPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateRemediationGuidance",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateRemediationGuidancePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateReportCloseComments",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateReportCloseCommentsPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateReportCustomFieldValues",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateReportCustomFieldValuesPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateReportCves",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateReportCvesPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateReportDraft",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateReportDraftPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateReportIneligibleForBounty",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateReportIneligibleForBountyPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateReportNotificationPreferences",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateReportNotificationPreferencesPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateReportOrganizationInboxes",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateReportOrganizationInboxesPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateReportStateToDuplicate",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateReportStateToDuplicatePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateReportStateToInformative",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateReportStateToInformativePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateReportStateToNeedsMoreInfo",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateReportStateToNeedsMoreInfoPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateReportStateToNew",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateReportStateToNewPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateReportStateToNotApplicable",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateReportStateToNotApplicablePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateReportStateToPendingProgramReview",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateReportStateToPendingProgramReviewPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateReportStateToResolved",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateReportStateToResolvedPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateReportStateToRetesting",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateReportStateToRetestingPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateReportStateToSpam",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateReportStateToSpamPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateReportStateToTriaged",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateReportStateToTriagedPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateReportStructuredScope",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateReportStructuredScopePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateReportSubscription",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateReportSubscriptionPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateReportTitle",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateReportTitlePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateReportVulnerabilityInformation",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateReportVulnerabilityInformationPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateReportWeakness",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateReportWeaknessPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateSfdcAgileAcceleratorSettings",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateSfdcAgileAcceleratorSettingsPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateSlackPipeline",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateSlackPipelinePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateSlackUser",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateSlackUserPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateSolutionInstance",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateSolutionInstancePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateStructuredPolicy",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateStructuredPolicyPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateStructuredScope",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateStructuredScopePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateSubmissionRequirements",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateSubmissionRequirementsPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateSurveyRating",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateSurveyRatingPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateTaxForm",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateTaxFormPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateTeamAllowsPrivateDisclosure",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateTeamAllowsPrivateDisclosurePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateTeamBountySplittingSetting",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateTeamBountySplittingSettingPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateTeamCriticalSubmissionState",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateTeamCriticalSubmissionStatePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateTeamDisplayOptions",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateTeamDisplayOptionsPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateTeamEmailSetting",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateTeamEmailSettingPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateTeamFancySlackIntegration",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateTeamFancySlackIntegrationPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateTeamGenius",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateTeamGeniusPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateTeamMemberVisibility",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateTeamMemberVisibilityPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateTeamPolicy",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateTeamPolicyPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateTeamResponseSla",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateTeamResponseSlaPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateTeamScopeDescription",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateTeamScopeDescriptionPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateTeamSubmissionState",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateTeamSubmissionStatePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateTeamSuccessGoals",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateTeamSuccessGoalsPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateTeamSwagSetting",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateTeamSwagSettingPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateTeamTargetSignal",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateTeamTargetSignalPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateTeamTriageNote",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateTeamTriageNotePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateTeamTriagePreferences",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateTeamTriagePreferencesPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateTeamWeakness",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateTeamWeaknessPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateTriageInboxItemsOwnership",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateTriageInboxItemsOwnershipPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateTriagePriority",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateTriagePriorityPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateTriageScopeInstruction",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateTriageScopeInstructionPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateTrigger",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateTriggerPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateTwoFactorAuthenticationBackupCodes",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateTwoFactorAuthenticationBackupCodesPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateTwoFactorAuthenticationCredentials",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateTwoFactorAuthenticationCredentialsPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateUserApiToken",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateUserApiTokenPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateUserAvailability",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateUserAvailabilityMutationPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateUserCollaborationPreference",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateUserCollaborationPreferencePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateUserCollaborationSettings",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateCollaborationSettingsPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateUserDisplayOptions",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateUserDisplayOptionsPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateUserEmail",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateUserEmailPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateUserLufthansaAccount",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateUserLufthansaAccountPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateUserOpportunitiesFeedback",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateUserOpportunitiesFeedbackPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateUserPassword",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateUserPasswordPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateUserType",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateUserTypePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateVdpLaunchConfigurationCurrentStep",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateVdpLaunchConfigurationCurrentStepPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateVdpLaunchConfigurationPolicy",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateVdpLaunchConfigurationPolicyPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateViewingReport",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateViewingReportPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "updateWebhook",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpdateWebhookPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "uploadAttachment",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UploadAttachmentPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "uploadCredentialsCsv",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UploadCredentialsCsvMutationPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "uploadProgramPolicyAttachment",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UploadProgramPolicyAttachmentPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "uploadScopeAttachments",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UploadScopeAttachmentsPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "upvote",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "UpvotePayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "verifyAccountRecoveryPhoneNumber",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "VerifyAccountRecoveryPhoneNumberPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "verifyDomainOwnership",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "VerifyDomainOwnershipPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "verifyOrganizationSamlProvider",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "VerifyOrganizationSamlProviderPayload",
+                            "kind": "OBJECT"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

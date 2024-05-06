@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "PayoutCadenceEnum",
+            "description": "Payout frequency or trigger",
+            "fields": null
+        }
+    }
+}

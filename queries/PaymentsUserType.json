@@ -1,0 +1,14 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		paymentsusertype {
+			id,
+			monthly_payouts,
+			payout_cadence,
+			payout_threshold_amount,
+			self_hold_payouts,
+		}
+	}"
+}

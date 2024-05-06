@@ -1,0 +1,86 @@
+{
+    "variables": {
+        "input0": {
+            "clientMutationId": "0",
+            "errors": "",
+            "llm_conversation": "",
+            "llm_conversation_message": "",
+            "llm_conversation_response": "",
+            "was_successful": ""
+        }
+    },
+    "query": "mutation ($input0:CopilotUpdateInput!) {
+		copilotUpdate(input:$input0) {
+			clientMutationId,
+			llm_conversation {
+				_id,
+				context_object {
+					cve_ids,
+					cwe_ids,
+					id,
+					report_ids,
+					team_handles,
+				},
+				id,
+				llm_app {
+					color,
+					created_at,
+					description,
+					id,
+					instructions,
+					name,
+					placeholder,
+				},
+				llm_conversation_messages(first:5) {
+					edges {
+						node {
+							_id,
+							author,
+							created_at,
+							id,
+							message_index,
+							messages,
+							state,
+							was_useful,
+						},
+					},
+					nodes {
+						_id,
+						author,
+						created_at,
+						id,
+						message_index,
+						messages,
+						state,
+						was_useful,
+					},
+					total_count,
+				},
+				next_prompts,
+				subtitle,
+				title,
+			},
+			llm_conversation_message {
+				_id,
+				author,
+				created_at,
+				id,
+				message_index,
+				messages,
+				state,
+				was_useful,
+			},
+			llm_conversation_response {
+				_id,
+				author,
+				created_at,
+				id,
+				message_index,
+				messages,
+				state,
+				was_useful,
+			},
+			was_successful,
+		}
+	}"
+}

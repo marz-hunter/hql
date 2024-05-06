@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "TriageInboxItemPriorityEnum",
+            "description": "Valid values for the report priority of triage inbox items",
+            "fields": null
+        }
+    }
+}

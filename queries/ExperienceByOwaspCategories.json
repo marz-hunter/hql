@@ -1,0 +1,30 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		experiencebyowaspcategories {
+			a10_flags,
+			a10_submissions,
+			a1_flags,
+			a1_submissions,
+			a2_flags,
+			a2_submissions,
+			a3_flags,
+			a3_submissions,
+			a4_flags,
+			a4_submissions,
+			a5_flags,
+			a5_submissions,
+			a6_flags,
+			a6_submissions,
+			a7_flags,
+			a7_submissions,
+			a8_flags,
+			a8_submissions,
+			a9_flags,
+			a9_submissions,
+			id,
+		}
+	}"
+}

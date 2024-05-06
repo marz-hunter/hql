@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "ErrorCodeEnum",
+            "description": "Specific errors that can occur",
+            "fields": null
+        }
+    }
+}

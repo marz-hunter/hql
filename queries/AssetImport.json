@@ -1,0 +1,18 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		assetimport {
+			_id,
+			archived_ids,
+			duplicate_scanner_asset_submissions,
+			id,
+			import_errors,
+			processed_existing_ids,
+			processed_new_ids,
+			state,
+			valid_scanner_asset_submissions,
+		}
+	}"
+}

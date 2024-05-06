@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "FiltersDerivedTeamLastUpdatedDateFilterInput",
+            "description": null,
+            "fields": null
+        }
+    }
+}

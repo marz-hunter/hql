@@ -1,0 +1,19 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		teammembereligibilitysettingsedge {
+			node {
+				_id,
+				allowed_domains,
+				allowed_domains_enabled,
+				created_at,
+				id,
+				name,
+				organization_id,
+				updated_at,
+			},
+		}
+	}"
+}

@@ -1,0 +1,14 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		certification {
+			_id,
+			h1_managed,
+			id,
+			name,
+			short_name,
+		}
+	}"
+}

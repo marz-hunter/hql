@@ -1,0 +1,31 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		startresidencyverificationpayload {
+			clientMutationId,
+			errors(first:5) {
+				edges {
+					node {
+						error_code,
+						field,
+						id,
+						message,
+						type,
+					},
+				},
+				nodes {
+					error_code,
+					field,
+					id,
+					message,
+					type,
+				},
+				total_count,
+			},
+			url,
+			was_successful,
+		}
+	}"
+}

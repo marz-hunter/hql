@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "EarningTypeEnum",
+            "description": "types of Earning",
+            "fields": null
+        }
+    }
+}

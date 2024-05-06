@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "DomainVerificationMethodEnum",
+            "description": "Domain Verification Method",
+            "fields": null
+        }
+    }
+}

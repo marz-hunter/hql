@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "UserTypeEnum",
+            "description": "Types a user can be",
+            "fields": null
+        }
+    }
+}

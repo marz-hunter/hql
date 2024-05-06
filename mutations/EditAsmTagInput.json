@@ -1,0 +1,53 @@
+{
+    "variables": {
+        "input0": {
+            "asm_tag": "",
+            "clientMutationId": "0",
+            "errors": "",
+            "was_successful": ""
+        }
+    },
+    "query": "mutation ($input0:EditAsmTagInput!) {
+		editAsmTag(input:$input0) {
+			asm_tag {
+				_id,
+				asm_tag_category {
+					_id,
+					asm_tags(first:5) {
+						edges {
+							node {
+								_id,
+								id,
+								name,
+								name_with_category,
+							},
+						},
+						nodes {
+							_id,
+							asm_tag_category {
+								_id,
+								can_mutate_tags,
+								id,
+								name,
+								system,
+							},
+							id,
+							name,
+							name_with_category,
+						},
+						total_count,
+					},
+					can_mutate_tags,
+					id,
+					name,
+					system,
+				},
+				id,
+				name,
+				name_with_category,
+			},
+			clientMutationId,
+			was_successful,
+		}
+	}"
+}

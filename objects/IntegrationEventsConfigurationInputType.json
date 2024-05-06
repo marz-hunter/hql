@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "IntegrationEventsConfigurationInputType",
+            "description": null,
+            "fields": null
+        }
+    }
+}

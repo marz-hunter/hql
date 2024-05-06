@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "EscalationIntegrationUnion",
+            "description": "Different types of things can escalate",
+            "fields": null
+        }
+    }
+}

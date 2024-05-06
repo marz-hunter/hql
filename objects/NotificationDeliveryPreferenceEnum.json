@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "NotificationDeliveryPreferenceEnum",
+            "description": "Values a notification delivery preference can be in",
+            "fields": null
+        }
+    }
+}

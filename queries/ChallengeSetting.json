@@ -1,0 +1,17 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		challengesetting {
+			aasm_state,
+			has_retesting_phase,
+			id,
+			not_started,
+			policy,
+			starts_at,
+			stops_at,
+			target_budget,
+		}
+	}"
+}

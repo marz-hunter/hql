@@ -1,0 +1,27 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		bountycompetitivenesspercentile {
+			critical {
+				id,
+				pct_1_25x,
+				pct_1_5x,
+				pct_1x,
+				pct_2x,
+				pct_3x,
+			},
+			high {
+				id,
+				pct_1_25x,
+				pct_1_5x,
+				pct_1x,
+				pct_2x,
+				pct_3x,
+			},
+			id,
+			status,
+		}
+	}"
+}

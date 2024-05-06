@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "TeamUpdateDeliveryPreferences",
+            "description": "Possible preferences of team updates delivery",
+            "fields": null
+        }
+    }
+}

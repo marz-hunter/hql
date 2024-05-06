@@ -1,0 +1,14 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		citizenshipverificationedge {
+			node {
+				country_code,
+				id,
+				nationality,
+			},
+		}
+	}"
+}

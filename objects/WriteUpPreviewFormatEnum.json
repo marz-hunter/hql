@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "WriteUpPreviewFormatEnum",
+            "description": "Format types that a write-up preview may be generated as",
+            "fields": null
+        }
+    }
+}

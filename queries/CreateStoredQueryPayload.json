@@ -1,0 +1,43 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		createstoredquerypayload {
+			clientMutationId,
+			errors(first:5) {
+				edges {
+					node {
+						error_code,
+						field,
+						id,
+						message,
+						type,
+					},
+				},
+				nodes {
+					error_code,
+					field,
+					id,
+					message,
+					type,
+				},
+				total_count,
+			},
+			stored_query {
+				_id,
+				average_match_duration,
+				id,
+				index_class,
+				maximum_match_duration,
+				minimum_match_duration,
+				name,
+				query_string,
+				sum_match_duration,
+				tags,
+				url,
+			},
+			was_successful,
+		}
+	}"
+}

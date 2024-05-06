@@ -1,0 +1,13 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		securityemailforwarding {
+			_id,
+			id,
+			security_email,
+			status,
+		}
+	}"
+}

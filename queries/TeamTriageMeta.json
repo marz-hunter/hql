@@ -1,0 +1,14 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		teamtriagemeta {
+			id,
+			team_name,
+			team_pod_name,
+			team_product_edition_name,
+			team_triage_plus,
+		}
+	}"
+}

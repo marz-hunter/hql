@@ -1,0 +1,15 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		submissionrequirements {
+			created_at,
+			id,
+			mfa_required_at,
+			severity_calculation_methods,
+			severity_required_at,
+			terms_required_at,
+		}
+	}"
+}

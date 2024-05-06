@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "AssetCoverageEnum",
+            "description": "Types of coverage of assets based on structured scopes",
+            "fields": null
+        }
+    }
+}

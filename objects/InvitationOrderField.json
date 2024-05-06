@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "InvitationOrderField",
+            "description": "Fields on which a collection of Invitation can be ordered",
+            "fields": null
+        }
+    }
+}

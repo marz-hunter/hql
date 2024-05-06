@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "AnalyticsOrderByInputType",
+            "description": null,
+            "fields": null
+        }
+    }
+}

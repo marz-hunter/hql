@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "AssetTagClauseTypeEnum",
+            "description": "Asset tag clause enum",
+            "fields": null
+        }
+    }
+}

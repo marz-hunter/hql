@@ -1,0 +1,34 @@
+{
+    "variables": {
+        "input0": {
+            "clientMutationId": "0",
+            "errors": "",
+            "user_session": "",
+            "was_successful": ""
+        }
+    },
+    "query": "mutation ($input0:DeleteUserSessionInput!) {
+		deleteUserSession(input:$input0) {
+			clientMutationId,
+			user_session {
+				_id,
+				abbreviated_user_agent,
+				country {
+					abbreviation,
+					flag,
+					id,
+					name,
+				},
+				created_at,
+				current,
+				deactivated_at,
+				device_type,
+				id,
+				ip_address,
+				session_last_used_at,
+				user_agent,
+			},
+			was_successful,
+		}
+	}"
+}

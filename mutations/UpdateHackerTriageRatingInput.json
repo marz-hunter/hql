@@ -1,0 +1,28 @@
+{
+    "variables": {
+        "input0": {
+            "clientMutationId": "0",
+            "errors": "",
+            "hacker_triage_rating": "",
+            "was_successful": ""
+        }
+    },
+    "query": "mutation ($input0:UpdateHackerTriageRatingInput!) {
+		updateHackerTriageRating(input:$input0) {
+			clientMutationId,
+			hacker_triage_rating {
+				_id,
+				activity_type,
+				comment,
+				id,
+				rating,
+				rating_options,
+				report_id,
+				status,
+				team_id,
+				user_id,
+			},
+			was_successful,
+		}
+	}"
+}

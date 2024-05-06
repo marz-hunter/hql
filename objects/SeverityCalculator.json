@@ -1,0 +1,32 @@
+{
+    "data": {
+        "__type": {
+            "name": "SeverityCalculator",
+            "description": "Calculate CVSS Severity score and rating",
+            "fields": [
+                {
+                    "name": "calculated_severity",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "CalculatedSeverity",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "id",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "ID",
+                            "kind": "SCALAR"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

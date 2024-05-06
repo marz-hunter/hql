@@ -1,0 +1,17 @@
+{
+    "variables": {
+        "input0": {
+            "bounties": "",
+            "clientMutationId": "0",
+            "errors": "",
+            "was_successful": ""
+        }
+    },
+    "query": "mutation ($input0:PayAllDuplicateReportsInput!) {
+		payAllDuplicateReports(input:$input0) {
+			bounties,
+			clientMutationId,
+			was_successful,
+		}
+	}"
+}

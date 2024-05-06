@@ -1,0 +1,26 @@
+{
+    "data": {
+        "__type": {
+            "name": "SurveyAnswerStatistics",
+            "description": "Statistics for a reason hackers have selected in a survey",
+            "fields": [
+                {
+                    "name": "survey_structured_response",
+                    "type": {
+                        "name": "SurveyStructuredResponse",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "total_count",
+                    "type": {
+                        "name": "Int",
+                        "kind": "SCALAR",
+                        "ofType": null
+                    }
+                }
+            ]
+        }
+    }
+}

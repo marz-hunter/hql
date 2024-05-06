@@ -1,0 +1,40 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		updateusercollaborationpreferencepayload {
+			clientMutationId,
+			errors(first:5) {
+				edges {
+					node {
+						error_code,
+						field,
+						id,
+						message,
+						type,
+					},
+				},
+				nodes {
+					error_code,
+					field,
+					id,
+					message,
+					type,
+				},
+				total_count,
+			},
+			hacker_preference {
+				availability,
+				collaboration,
+				has_asset_type_preferences,
+				has_weakness_preferences,
+				id,
+				is_interested_in_collaboration,
+				level,
+				opportunity_types,
+			},
+			was_successful,
+		}
+	}"
+}

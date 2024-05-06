@@ -1,0 +1,14 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		notificationpreferencesassigned {
+			_id,
+			created_at,
+			enabled,
+			id,
+			updated_at,
+		}
+	}"
+}

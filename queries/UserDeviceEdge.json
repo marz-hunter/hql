@@ -1,0 +1,18 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		userdeviceedge {
+			node {
+				abbreviated_user_agent,
+				created_at,
+				device_id,
+				id,
+				ip_address,
+				name,
+				user_agent,
+			},
+		}
+	}"
+}

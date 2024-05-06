@@ -1,0 +1,25 @@
+{
+    "variables": {
+        "input0": {
+            "clientMutationId": "0",
+            "errors": "",
+            "tax_form": "",
+            "was_successful": ""
+        }
+    },
+    "query": "mutation ($input0:UpdateTaxFormInput!) {
+		updateTaxForm(input:$input0) {
+			clientMutationId,
+			tax_form {
+				created_at,
+				hello_sign_client_id,
+				id,
+				signed_at,
+				status,
+				type,
+				url,
+			},
+			was_successful,
+		}
+	}"
+}

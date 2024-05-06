@@ -1,0 +1,42 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		updatehackertriageratingpayload {
+			clientMutationId,
+			errors(first:5) {
+				edges {
+					node {
+						error_code,
+						field,
+						id,
+						message,
+						type,
+					},
+				},
+				nodes {
+					error_code,
+					field,
+					id,
+					message,
+					type,
+				},
+				total_count,
+			},
+			hacker_triage_rating {
+				_id,
+				activity_type,
+				comment,
+				id,
+				rating,
+				rating_options,
+				report_id,
+				status,
+				team_id,
+				user_id,
+			},
+			was_successful,
+		}
+	}"
+}

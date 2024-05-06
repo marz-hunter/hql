@@ -1,0 +1,30 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		llmappconnection {
+			edges {
+				node {
+					color,
+					created_at,
+					description,
+					id,
+					instructions,
+					name,
+					placeholder,
+				},
+			},
+			nodes {
+				color,
+				created_at,
+				description,
+				id,
+				instructions,
+				name,
+				placeholder,
+			},
+			total_count,
+		}
+	}"
+}

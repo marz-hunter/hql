@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "TriageInboxItemReportSubstateEnum",
+            "description": "Valid values for the report substate of triage inbox items",
+            "fields": null
+        }
+    }
+}

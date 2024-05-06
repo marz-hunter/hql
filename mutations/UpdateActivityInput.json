@@ -1,0 +1,16 @@
+{
+    "variables": {
+        "input0": {
+            "activity": "",
+            "clientMutationId": "0",
+            "errors": "",
+            "was_successful": ""
+        }
+    },
+    "query": "mutation ($input0:UpdateActivityInput!) {
+		updateActivity(input:$input0) {
+			clientMutationId,
+			was_successful,
+		}
+	}"
+}

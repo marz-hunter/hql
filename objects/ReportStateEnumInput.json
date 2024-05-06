@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "ReportStateEnumInput",
+            "description": "States a report can be in",
+            "fields": null
+        }
+    }
+}

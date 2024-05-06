@@ -1,0 +1,27 @@
+{
+    "variables": {
+        "input0": {
+            "asset_import": "",
+            "clientMutationId": "0",
+            "errors": "",
+            "was_successful": ""
+        }
+    },
+    "query": "mutation ($input0:ImportAssetsCsvMutationInput!) {
+		importAssetsCsvMutation(input:$input0) {
+			asset_import {
+				_id,
+				archived_ids,
+				duplicate_scanner_asset_submissions,
+				id,
+				import_errors,
+				processed_existing_ids,
+				processed_new_ids,
+				state,
+				valid_scanner_asset_submissions,
+			},
+			clientMutationId,
+			was_successful,
+		}
+	}"
+}

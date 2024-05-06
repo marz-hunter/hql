@@ -1,0 +1,32 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		paymenttransactionedge {
+			node {
+				activity_date,
+				activity_description,
+				balance,
+				bounty_award,
+				bounty_fee,
+				debit_or_credit_amount,
+				formatted_payer_type,
+				hacker_id,
+				hacker_url,
+				hacker_username,
+				id,
+				payer_id,
+				payer_url,
+				payer_username,
+				payment_id,
+				payment_transaction_type,
+				report_id,
+				report_url,
+				team_handle,
+				team_id,
+				team_url,
+			},
+		}
+	}"
+}

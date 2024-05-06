@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "ChallengeDemoUseCase",
+            "description": "Different use-cases to demo for challenges",
+            "fields": null
+        }
+    }
+}

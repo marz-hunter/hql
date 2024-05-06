@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "SeverityConfidentialityRequirementEnum",
+            "description": "Severity confidentiality requirement",
+            "fields": null
+        }
+    }
+}

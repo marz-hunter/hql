@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "CoverageAnalyticsOrderInput",
+            "description": null,
+            "fields": null
+        }
+    }
+}

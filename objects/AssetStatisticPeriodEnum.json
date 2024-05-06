@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "AssetStatisticPeriodEnum",
+            "description": "Periods applicable to the Attack Surface Coverage Dashboard",
+            "fields": null
+        }
+    }
+}

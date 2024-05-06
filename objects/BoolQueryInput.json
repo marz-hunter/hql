@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "BoolQueryInput",
+            "description": null,
+            "fields": null
+        }
+    }
+}

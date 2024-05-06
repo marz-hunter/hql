@@ -1,0 +1,36 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		hackertriageratingconnection {
+			edges {
+				node {
+					_id,
+					activity_type,
+					comment,
+					id,
+					rating,
+					rating_options,
+					report_id,
+					status,
+					team_id,
+					user_id,
+				},
+			},
+			nodes {
+				_id,
+				activity_type,
+				comment,
+				id,
+				rating,
+				rating_options,
+				report_id,
+				status,
+				team_id,
+				user_id,
+			},
+			total_count,
+		}
+	}"
+}

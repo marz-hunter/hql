@@ -1,0 +1,16 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		userresolvedreportcounts {
+			id,
+			severity_critical_count,
+			severity_high_count,
+			severity_low_count,
+			severity_medium_count,
+			url,
+			valid_vulnerability_count,
+		}
+	}"
+}

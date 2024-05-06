@@ -1,0 +1,38 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		hackerskillconnection {
+			edges {
+				node {
+					_id,
+					id,
+					proficiency,
+					skill {
+						_id,
+						approved,
+						description,
+						id,
+						name,
+						status,
+					},
+				},
+			},
+			nodes {
+				_id,
+				id,
+				proficiency,
+				skill {
+					_id,
+					approved,
+					description,
+					id,
+					name,
+					status,
+				},
+			},
+			total_count,
+		}
+	}"
+}

@@ -1,0 +1,37 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		hackercommentclassificationpostcommentpayload {
+			clientMutationId,
+			errors(first:5) {
+				edges {
+					node {
+						error_code,
+						field,
+						id,
+						message,
+						type,
+					},
+				},
+				nodes {
+					error_code,
+					field,
+					id,
+					message,
+					type,
+				},
+				total_count,
+			},
+			hacker_comment_classification {
+				_id,
+				id,
+				requires_action,
+				suggested_response,
+				was_useful,
+			},
+			was_successful,
+		}
+	}"
+}

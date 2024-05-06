@@ -1,0 +1,13 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		dupewindow {
+			active,
+			eligible_report_count,
+			ends_at,
+			id,
+		}
+	}"
+}

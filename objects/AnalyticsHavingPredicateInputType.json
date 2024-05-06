@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "AnalyticsHavingPredicateInputType",
+            "description": null,
+            "fields": null
+        }
+    }
+}

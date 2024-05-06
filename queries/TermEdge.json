@@ -1,0 +1,16 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		termedge {
+			node {
+				_id,
+				copy,
+				created_at,
+				id,
+				name,
+			},
+		}
+	}"
+}

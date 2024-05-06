@@ -1,0 +1,45 @@
+{
+    "data": {
+        "__type": {
+            "name": "TopHackerEngagementTrend",
+            "description": "Top Hacker Engagement Trend type",
+            "fields": [
+                {
+                    "name": "grouped_by_values",
+                    "type": {
+                        "name": "Hash",
+                        "kind": "SCALAR",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "id",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "ID",
+                            "kind": "SCALAR"
+                        }
+                    }
+                },
+                {
+                    "name": "total_value",
+                    "type": {
+                        "name": "Int",
+                        "kind": "SCALAR",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "user",
+                    "type": {
+                        "name": "User",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "variables": {
+        "input0": []
+    },
+    "query": "mutation ($input0:IntegrationEventsConfigurationInputType!) {
+		integrationEventsConfigurationType(input:$input0) {
+		}
+	}"
+}

@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "InnerHitsInput",
+            "description": null,
+            "fields": null
+        }
+    }
+}

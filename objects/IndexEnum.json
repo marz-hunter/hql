@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "IndexEnum",
+            "description": "Available ElasticSearch indexes",
+            "fields": null
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "TeamIntegrationType",
+            "description": "Possible types for Team Integrations",
+            "fields": null
+        }
+    }
+}

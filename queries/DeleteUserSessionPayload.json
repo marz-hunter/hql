@@ -1,0 +1,48 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		deleteusersessionpayload {
+			clientMutationId,
+			errors(first:5) {
+				edges {
+					node {
+						error_code,
+						field,
+						id,
+						message,
+						type,
+					},
+				},
+				nodes {
+					error_code,
+					field,
+					id,
+					message,
+					type,
+				},
+				total_count,
+			},
+			user_session {
+				_id,
+				abbreviated_user_agent,
+				country {
+					abbreviation,
+					flag,
+					id,
+					name,
+				},
+				created_at,
+				current,
+				deactivated_at,
+				device_type,
+				id,
+				ip_address,
+				session_last_used_at,
+				user_agent,
+			},
+			was_successful,
+		}
+	}"
+}

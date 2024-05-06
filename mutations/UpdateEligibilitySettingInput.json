@@ -1,0 +1,26 @@
+{
+    "variables": {
+        "input0": {
+            "clientMutationId": "0",
+            "eligibility_setting": "",
+            "errors": "",
+            "was_successful": ""
+        }
+    },
+    "query": "mutation ($input0:UpdateEligibilitySettingInput!) {
+		updateEligibilitySetting(input:$input0) {
+			clientMutationId,
+			eligibility_setting {
+				_id,
+				allowed_domains,
+				allowed_domains_enabled,
+				created_at,
+				id,
+				name,
+				organization_id,
+				updated_at,
+			},
+			was_successful,
+		}
+	}"
+}

@@ -1,0 +1,28 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		payoutconnection {
+			edges {
+				node {
+					amount,
+					id,
+					payout_provider,
+					reference,
+					sent_at,
+					status,
+				},
+			},
+			nodes {
+				amount,
+				id,
+				payout_provider,
+				reference,
+				sent_at,
+				status,
+			},
+			total_count,
+		}
+	}"
+}

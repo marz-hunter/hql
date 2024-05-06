@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "FiltersRetestSubscriptionAggregateFilterInput",
+            "description": null,
+            "fields": null
+        }
+    }
+}

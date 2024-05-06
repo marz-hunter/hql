@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "JSON",
+            "description": "Represents untyped JSON",
+            "fields": null
+        }
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		beneficiaryrequireddetailsconnection {
+			edges {
+				node {
+					beneficiary_entity_type,
+					beneficiary_required_fields(first:5) {
+						edges {
+							node {
+								description,
+								field,
+								id,
+								regex,
+								section,
+							},
+						},
+						nodes {
+							description,
+							field,
+							id,
+							regex,
+							section,
+						},
+						total_count,
+					},
+					description,
+					fee,
+					id,
+					payment_type,
+				},
+			},
+			nodes {
+				beneficiary_entity_type,
+				beneficiary_required_fields(first:5) {
+					edges {
+						node {
+							description,
+							field,
+							id,
+							regex,
+							section,
+						},
+					},
+					nodes {
+						description,
+						field,
+						id,
+						regex,
+						section,
+					},
+					total_count,
+				},
+				description,
+				fee,
+				id,
+				payment_type,
+			},
+			total_count,
+		}
+	}"
+}

@@ -1,0 +1,32 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		rankedweaknessbyyearconnection {
+			edges {
+				node {
+					id,
+					industry,
+					rank,
+					rank_prev_year,
+					weakness_external_id,
+					weakness_id,
+					weakness_name,
+					year,
+				},
+			},
+			nodes {
+				id,
+				industry,
+				rank,
+				rank_prev_year,
+				weakness_external_id,
+				weakness_id,
+				weakness_name,
+				year,
+			},
+			total_count,
+		}
+	}"
+}

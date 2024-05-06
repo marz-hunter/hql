@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "FilterOrderDirectionEnum",
+            "description": "Possible directions for sorting a collection",
+            "fields": null
+        }
+    }
+}

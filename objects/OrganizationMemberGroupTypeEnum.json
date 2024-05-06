@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "OrganizationMemberGroupTypeEnum",
+            "description": "Types an organization member group can have",
+            "fields": null
+        }
+    }
+}

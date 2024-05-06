@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "StructuredScopeOrderField",
+            "description": "Fields on which a collection of structured scopes can be ordered",
+            "fields": null
+        }
+    }
+}

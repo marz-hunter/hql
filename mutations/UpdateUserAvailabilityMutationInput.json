@@ -1,0 +1,17 @@
+{
+    "variables": {
+        "input0": {
+            "clientMutationId": "0",
+            "errors": "",
+            "user_availabilities": "",
+            "was_successful": ""
+        }
+    },
+    "query": "mutation ($input0:UpdateUserAvailabilityMutationInput!) {
+		updateUserAvailabilityMutation(input:$input0) {
+			clientMutationId,
+			user_availabilities,
+			was_successful,
+		}
+	}"
+}

@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "EscalationImplementationUnion",
+            "description": "Possible implementations of an escalation",
+            "fields": null
+        }
+    }
+}

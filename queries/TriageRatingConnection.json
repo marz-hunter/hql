@@ -1,0 +1,28 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		triageratingconnection {
+			edges {
+				node {
+					_id,
+					comment,
+					id,
+					rating,
+					report_id,
+					user_id,
+				},
+			},
+			nodes {
+				_id,
+				comment,
+				id,
+				rating,
+				report_id,
+				user_id,
+			},
+			total_count,
+		}
+	}"
+}

@@ -1,0 +1,26 @@
+{
+    "variables": {
+        "input0": {
+            "clientMutationId": "0",
+            "errors": "",
+            "llm_conversation_message": "",
+            "was_successful": ""
+        }
+    },
+    "query": "mutation ($input0:CopilotUpdateMessageIndexInput!) {
+		copilotUpdateMessageIndex(input:$input0) {
+			clientMutationId,
+			llm_conversation_message {
+				_id,
+				author,
+				created_at,
+				id,
+				message_index,
+				messages,
+				state,
+				was_useful,
+			},
+			was_successful,
+		}
+	}"
+}

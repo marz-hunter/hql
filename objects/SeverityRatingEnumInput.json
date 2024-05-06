@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "SeverityRatingEnumInput",
+            "description": "Severity rating",
+            "fields": null
+        }
+    }
+}

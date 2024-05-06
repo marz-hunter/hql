@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "DocumentUnion",
+            "description": "ElasticSearch Document can be of different types",
+            "fields": null
+        }
+    }
+}

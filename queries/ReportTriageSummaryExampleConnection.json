@@ -1,0 +1,24 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		reporttriagesummaryexampleconnection {
+			edges {
+				node {
+					id,
+					input,
+					title,
+					triage_summary,
+				},
+			},
+			nodes {
+				id,
+				input,
+				title,
+				triage_summary,
+			},
+			total_count,
+		}
+	}"
+}

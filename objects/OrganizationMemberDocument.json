@@ -1,0 +1,29 @@
+{
+    "data": {
+        "__type": {
+            "name": "OrganizationMemberDocument",
+            "description": null,
+            "fields": [
+                {
+                    "name": "id",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "ID",
+                            "kind": "SCALAR"
+                        }
+                    }
+                },
+                {
+                    "name": "organization_member",
+                    "type": {
+                        "name": "OrganizationMember",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                }
+            ]
+        }
+    }
+}

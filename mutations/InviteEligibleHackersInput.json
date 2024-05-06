@@ -1,0 +1,17 @@
+{
+    "variables": {
+        "input0": {
+            "clientMutationId": "0",
+            "errors": "",
+            "users_validation_result": "",
+            "was_successful": ""
+        }
+    },
+    "query": "mutation ($input0:InviteEligibleHackersInput!) {
+		inviteEligibleHackers(input:$input0) {
+			clientMutationId,
+			users_validation_result,
+			was_successful,
+		}
+	}"
+}

@@ -1,0 +1,17 @@
+{
+    "variables": {
+        "input0": {
+            "clientMutationId": "0",
+            "errors": "",
+            "new_solution_instance_id": "",
+            "was_successful": ""
+        }
+    },
+    "query": "mutation ($input0:CreateOrganizationSolutionInstanceInput!) {
+		createOrganizationSolutionInstance(input:$input0) {
+			clientMutationId,
+			new_solution_instance_id,
+			was_successful,
+		}
+	}"
+}

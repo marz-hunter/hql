@@ -1,0 +1,26 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		termconnection {
+			edges {
+				node {
+					_id,
+					copy,
+					created_at,
+					id,
+					name,
+				},
+			},
+			nodes {
+				_id,
+				copy,
+				created_at,
+				id,
+				name,
+			},
+			total_count,
+		}
+	}"
+}

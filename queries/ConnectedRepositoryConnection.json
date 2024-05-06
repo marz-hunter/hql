@@ -1,0 +1,32 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		connectedrepositoryconnection {
+			edges {
+				node {
+					_id,
+					default_branch,
+					description,
+					id,
+					name,
+					needs_review,
+					sha,
+					url,
+				},
+			},
+			nodes {
+				_id,
+				default_branch,
+				description,
+				id,
+				name,
+				needs_review,
+				sha,
+				url,
+			},
+			total_count,
+		}
+	}"
+}

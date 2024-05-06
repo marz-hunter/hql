@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "SurveyRatingStateEnum",
+            "description": "SurveyRating state enum",
+            "fields": null
+        }
+    }
+}

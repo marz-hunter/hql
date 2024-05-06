@@ -1,0 +1,17 @@
+{
+    "variables": {
+        "input0": {
+            "clientMutationId": "0",
+            "errors": "",
+            "structured_scopes": "",
+            "was_successful": ""
+        }
+    },
+    "query": "mutation ($input0:BulkUpdateScopesInput!) {
+		bulkUpdateScopes(input:$input0) {
+			clientMutationId,
+			structured_scopes,
+			was_successful,
+		}
+	}"
+}

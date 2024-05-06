@@ -1,0 +1,20 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		hackerskill {
+			_id,
+			id,
+			proficiency,
+			skill {
+				_id,
+				approved,
+				description,
+				id,
+				name,
+				status,
+			},
+		}
+	}"
+}

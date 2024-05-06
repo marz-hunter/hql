@@ -1,0 +1,29 @@
+{
+    "variables": {
+        "input0": {
+            "clientMutationId": "0",
+            "errors": "",
+            "stored_query": "",
+            "was_successful": ""
+        }
+    },
+    "query": "mutation ($input0:CreateStoredQueryInput!) {
+		createStoredQuery(input:$input0) {
+			clientMutationId,
+			stored_query {
+				_id,
+				average_match_duration,
+				id,
+				index_class,
+				maximum_match_duration,
+				minimum_match_duration,
+				name,
+				query_string,
+				sum_match_duration,
+				tags,
+				url,
+			},
+			was_successful,
+		}
+	}"
+}

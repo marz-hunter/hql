@@ -1,0 +1,17 @@
+{
+    "variables": {
+        "input0": {
+            "clientMutationId": "0",
+            "entities": "",
+            "errors": "",
+            "was_successful": ""
+        }
+    },
+    "query": "mutation ($input0:DetectSensitiveReportDataInput!) {
+		detectSensitiveReportData(input:$input0) {
+			clientMutationId,
+			entities,
+			was_successful,
+		}
+	}"
+}

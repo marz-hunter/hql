@@ -1,0 +1,9 @@
+{
+    "variables": {
+        "input0": []
+    },
+    "query": "mutation ($input0:MustNotInput!) {
+		mustNot(input:$input0) {
+		}
+	}"
+}

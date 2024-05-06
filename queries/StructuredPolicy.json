@@ -1,0 +1,16 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		structuredpolicy {
+			brand_promise,
+			id,
+			preferences,
+			process,
+			safe_harbor,
+			scope,
+			url,
+		}
+	}"
+}

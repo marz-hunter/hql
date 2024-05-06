@@ -1,0 +1,38 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		automationtemplateconnection {
+			edges {
+				node {
+					_id,
+					arn,
+					footer,
+					from,
+					handler,
+					header,
+					id,
+					name,
+					optional_events,
+					required_events,
+					to,
+				},
+			},
+			nodes {
+				_id,
+				arn,
+				footer,
+				from,
+				handler,
+				header,
+				id,
+				name,
+				optional_events,
+				required_events,
+				to,
+			},
+			total_count,
+		}
+	}"
+}

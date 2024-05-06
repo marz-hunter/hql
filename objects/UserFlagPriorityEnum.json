@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "UserFlagPriorityEnum",
+            "description": "User flag priority",
+            "fields": null
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "AssetImplementationTypeEnum",
+            "description": "Asset type enum",
+            "fields": null
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "OrganizationInboxTypeEnumInput",
+            "description": "Types an organization inbox can have",
+            "fields": null
+        }
+    }
+}

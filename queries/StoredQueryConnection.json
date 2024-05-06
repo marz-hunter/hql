@@ -1,0 +1,37 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		storedqueryconnection {
+			edges {
+				node {
+					_id,
+					average_match_duration,
+					id,
+					index_class,
+					maximum_match_duration,
+					minimum_match_duration,
+					name,
+					query_string,
+					sum_match_duration,
+					tags,
+					url,
+				},
+			},
+			nodes {
+				_id,
+				average_match_duration,
+				id,
+				index_class,
+				maximum_match_duration,
+				minimum_match_duration,
+				name,
+				query_string,
+				sum_match_duration,
+				tags,
+				url,
+			},
+		}
+	}"
+}

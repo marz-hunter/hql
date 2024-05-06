@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "CampaignStateEnumInput",
+            "description": "Campaign state enum",
+            "fields": null
+        }
+    }
+}

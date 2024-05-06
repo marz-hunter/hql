@@ -1,0 +1,23 @@
+{
+    "variables": {
+        "input0": {
+            "clientMutationId": "0",
+            "errors": "",
+            "hacker_comment_classification": "",
+            "was_successful": ""
+        }
+    },
+    "query": "mutation ($input0:HackerCommentClassificationNotUsefulInput!) {
+		hackerCommentClassificationNotUseful(input:$input0) {
+			clientMutationId,
+			hacker_comment_classification {
+				_id,
+				id,
+				requires_action,
+				suggested_response,
+				was_useful,
+			},
+			was_successful,
+		}
+	}"
+}

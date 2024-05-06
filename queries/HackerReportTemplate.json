@@ -1,0 +1,25 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		hackerreporttemplate {
+			attack_complexity,
+			attack_vector,
+			availability,
+			body,
+			confidentiality,
+			cwe,
+			id,
+			impact,
+			integrity,
+			privileges_required,
+			rating,
+			scope,
+			score,
+			severity,
+			title,
+			user_interaction,
+		}
+	}"
+}

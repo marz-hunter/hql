@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "OrganizationPermissionsEnum",
+            "description": "Organization permissions enum",
+            "fields": null
+        }
+    }
+}

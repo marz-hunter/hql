@@ -1,0 +1,26 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		customfieldvalueconnection {
+			edges {
+				node {
+					_id,
+					created_at,
+					id,
+					updated_at,
+					value,
+				},
+			},
+			nodes {
+				_id,
+				created_at,
+				id,
+				updated_at,
+				value,
+			},
+			total_count,
+		}
+	}"
+}

@@ -1,0 +1,17 @@
+{
+    "variables": {
+        "input0": {
+            "clientMutationId": "0",
+            "errors": "",
+            "gateway_users": "",
+            "was_successful": ""
+        }
+    },
+    "query": "mutation ($input0:SuspendGatewayProgramForUsersInput!) {
+		suspendGatewayProgramForUsers(input:$input0) {
+			clientMutationId,
+			gateway_users,
+			was_successful,
+		}
+	}"
+}

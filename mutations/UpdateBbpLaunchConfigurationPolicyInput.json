@@ -1,0 +1,63 @@
+{
+    "variables": {
+        "input0": {
+            "bbp_launch_configuration": "",
+            "clientMutationId": "0",
+            "errors": "",
+            "was_successful": ""
+        }
+    },
+    "query": "mutation ($input0:UpdateBbpLaunchConfigurationPolicyInput!) {
+		updateBbpLaunchConfigurationPolicy(input:$input0) {
+			bbp_launch_configuration {
+				attachment {
+					_id,
+					content_type,
+					created_at,
+					expiring_url,
+					file_name,
+					file_size,
+					id,
+					long_lasting_url,
+					moderated,
+				},
+				current_configuration_step,
+				has_changed_brand_promise,
+				has_changed_custom_section,
+				has_changed_disclosure_policies,
+				has_changed_faq,
+				has_changed_legal,
+				has_changed_out_of_scope,
+				has_changed_program_eligibility,
+				has_changed_program_rules,
+				has_changed_rewards,
+				has_changed_safe_harbor,
+				id,
+				invoice_opt_in,
+				launch_at,
+				launch_requested_at,
+				policy_brand_promise,
+				policy_custom_section_content,
+				policy_custom_section_name,
+				policy_disclosure_policies,
+				policy_faq,
+				policy_legal,
+				policy_out_of_scope,
+				policy_program_eligibility,
+				policy_program_rules,
+				policy_rewards,
+				policy_safe_harbor,
+				suggested_critical,
+				suggested_high,
+				suggested_low,
+				suggested_medium,
+				suggested_min_critical,
+				suggested_min_high,
+				suggested_min_low,
+				suggested_min_medium,
+			},
+			clientMutationId,
+			was_successful,
+		}
+	}"
+}

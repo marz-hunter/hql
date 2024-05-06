@@ -1,0 +1,9 @@
+{
+    "variables": {
+        "input0": []
+    },
+    "query": "mutation ($input0:DuplicateDetectionPageStateInput!) {
+		duplicateDetectionPageState(input:$input0) {
+		}
+	}"
+}

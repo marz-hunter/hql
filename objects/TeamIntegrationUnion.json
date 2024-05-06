@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "TeamIntegrationUnion",
+            "description": "TeamIntegrations can be of multiple types",
+            "fields": null
+        }
+    }
+}

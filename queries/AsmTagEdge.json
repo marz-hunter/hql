@@ -1,0 +1,46 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		asmtagedge {
+			node {
+				_id,
+				asm_tag_category {
+					_id,
+					asm_tags(first:5) {
+						edges {
+							node {
+								_id,
+								id,
+								name,
+								name_with_category,
+							},
+						},
+						nodes {
+							_id,
+							asm_tag_category {
+								_id,
+								can_mutate_tags,
+								id,
+								name,
+								system,
+							},
+							id,
+							name,
+							name_with_category,
+						},
+						total_count,
+					},
+					can_mutate_tags,
+					id,
+					name,
+					system,
+				},
+				id,
+				name,
+				name_with_category,
+			},
+		}
+	}"
+}

@@ -1,0 +1,32 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		llmconversationmessageconnection {
+			edges {
+				node {
+					_id,
+					author,
+					created_at,
+					id,
+					message_index,
+					messages,
+					state,
+					was_useful,
+				},
+			},
+			nodes {
+				_id,
+				author,
+				created_at,
+				id,
+				message_index,
+				messages,
+				state,
+				was_useful,
+			},
+			total_count,
+		}
+	}"
+}

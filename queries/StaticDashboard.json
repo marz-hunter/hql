@@ -1,0 +1,23 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		staticdashboard {
+			charts,
+			dashboard_layout_columns,
+			description,
+			elements,
+			filter_options,
+			hide_interval_dropdown,
+			id,
+			include_in_stable_rest_api,
+			key,
+			queries,
+			title,
+			title_tooltip,
+			type,
+			url,
+		}
+	}"
+}

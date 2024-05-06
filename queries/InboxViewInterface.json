@@ -1,0 +1,32 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		inboxviewinterface {
+			_id,
+			assets,
+			assigned_to_group_ids,
+			assigned_to_user_ids,
+			built_in,
+			created_at,
+			custom_fields,
+			custom_inbox_ids,
+			filters,
+			hackathons,
+			id,
+			key,
+			name,
+			position,
+			pre_submission_states,
+			reporter_ids,
+			severities,
+			sort_direction,
+			sort_type,
+			substates,
+			text_query,
+			updated_at,
+			visible,
+		}
+	}"
+}

@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "LeaderboardKeyEnum",
+            "description": "Types of leaderboards",
+            "fields": null
+        }
+    }
+}

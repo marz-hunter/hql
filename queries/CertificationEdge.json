@@ -1,0 +1,16 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		certificationedge {
+			node {
+				_id,
+				h1_managed,
+				id,
+				name,
+				short_name,
+			},
+		}
+	}"
+}

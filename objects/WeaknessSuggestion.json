@@ -1,0 +1,86 @@
+{
+    "data": {
+        "__type": {
+            "name": "WeaknessSuggestion",
+            "description": "The type of vulnerability on a HackerOne report",
+            "fields": [
+                {
+                    "name": "_id",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "ID",
+                            "kind": "SCALAR"
+                        }
+                    }
+                },
+                {
+                    "name": "id",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "ID",
+                            "kind": "SCALAR"
+                        }
+                    }
+                },
+                {
+                    "name": "weakness_1",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "Weakness",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "weakness_1_confidence",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "Float",
+                            "kind": "SCALAR"
+                        }
+                    }
+                },
+                {
+                    "name": "weakness_2",
+                    "type": {
+                        "name": "Weakness",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "weakness_2_confidence",
+                    "type": {
+                        "name": "Float",
+                        "kind": "SCALAR",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "weakness_3",
+                    "type": {
+                        "name": "Weakness",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "weakness_3_confidence",
+                    "type": {
+                        "name": "Float",
+                        "kind": "SCALAR",
+                        "ofType": null
+                    }
+                }
+            ]
+        }
+    }
+}

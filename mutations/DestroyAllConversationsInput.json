@@ -1,0 +1,17 @@
+{
+    "variables": {
+        "input0": {
+            "clientMutationId": "0",
+            "destroyed": "",
+            "errors": "",
+            "was_successful": ""
+        }
+    },
+    "query": "mutation ($input0:DestroyAllConversationsInput!) {
+		destroyAllConversations(input:$input0) {
+			clientMutationId,
+			destroyed,
+			was_successful,
+		}
+	}"
+}

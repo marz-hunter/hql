@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "FiltersAuditLogItemFilterInput",
+            "description": null,
+            "fields": null
+        }
+    }
+}

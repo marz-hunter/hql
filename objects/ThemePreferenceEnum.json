@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "ThemePreferenceEnum",
+            "description": "Theme preferences",
+            "fields": null
+        }
+    }
+}

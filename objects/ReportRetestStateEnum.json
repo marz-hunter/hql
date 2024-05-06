@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "ReportRetestStateEnum",
+            "description": "Report retest state enum",
+            "fields": null
+        }
+    }
+}

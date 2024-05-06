@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "SamlProviderStateEnumInput",
+            "description": "SAML Provider State",
+            "fields": null
+        }
+    }
+}

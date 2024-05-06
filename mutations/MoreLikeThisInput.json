@@ -1,0 +1,9 @@
+{
+    "variables": {
+        "input0": []
+    },
+    "query": "mutation ($input0:MoreLikeThisInput!) {
+		moreLikeThis(input:$input0) {
+		}
+	}"
+}

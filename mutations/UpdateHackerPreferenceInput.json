@@ -1,0 +1,26 @@
+{
+    "variables": {
+        "input0": {
+            "clientMutationId": "0",
+            "errors": "",
+            "hacker_preference": "",
+            "was_successful": ""
+        }
+    },
+    "query": "mutation ($input0:UpdateHackerPreferenceInput!) {
+		updateHackerPreference(input:$input0) {
+			clientMutationId,
+			hacker_preference {
+				availability,
+				collaboration,
+				has_asset_type_preferences,
+				has_weakness_preferences,
+				id,
+				is_interested_in_collaboration,
+				level,
+				opportunity_types,
+			},
+			was_successful,
+		}
+	}"
+}

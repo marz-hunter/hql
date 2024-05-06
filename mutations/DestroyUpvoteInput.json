@@ -1,0 +1,18 @@
+{
+    "variables": {
+        "input0": {
+            "clientMutationId": "0",
+            "deleted_vote_id": "",
+            "errors": "",
+            "hacktivity_item": "",
+            "was_successful": ""
+        }
+    },
+    "query": "mutation ($input0:DestroyUpvoteInput!) {
+		destroyUpvote(input:$input0) {
+			clientMutationId,
+			deleted_vote_id,
+			was_successful,
+		}
+	}"
+}

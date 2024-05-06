@@ -1,0 +1,28 @@
+{
+    "variables": {
+        "input0": {
+            "automation": "",
+            "clientMutationId": "0",
+            "errors": "",
+            "was_successful": ""
+        }
+    },
+    "query": "mutation ($input0:UpdateAutomationActiveInput!) {
+		updateAutomationActive(input:$input0) {
+			automation {
+				_id,
+				active,
+				config,
+				created_at,
+				events,
+				id,
+				lambda_arn,
+				title,
+				trigger_type,
+				updated_at,
+			},
+			clientMutationId,
+			was_successful,
+		}
+	}"
+}

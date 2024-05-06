@@ -1,0 +1,26 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		triagescopeinstructionconnection {
+			edges {
+				node {
+					_id,
+					asset_identifier,
+					guideline,
+					id,
+					team_id,
+				},
+			},
+			nodes {
+				_id,
+				asset_identifier,
+				guideline,
+				id,
+				team_id,
+			},
+			total_count,
+		}
+	}"
+}

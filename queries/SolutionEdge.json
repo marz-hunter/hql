@@ -1,0 +1,19 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		solutionedge {
+			node {
+				_id,
+				custom_fields,
+				description,
+				id,
+				name,
+				test_button_enabled,
+				title,
+				url,
+			},
+		}
+	}"
+}

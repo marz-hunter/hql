@@ -1,0 +1,35 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		trayescalation {
+			_id,
+			created_at,
+			id,
+			reference,
+			solution_instance {
+				_id,
+				created,
+				description,
+				edit_url,
+				enabled,
+				id,
+				linkable,
+				name,
+				solution {
+					_id,
+					custom_fields,
+					description,
+					id,
+					name,
+					test_button_enabled,
+					title,
+					url,
+				},
+				url,
+			},
+			url,
+		}
+	}"
+}

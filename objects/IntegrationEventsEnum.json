@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "IntegrationEventsEnum",
+            "description": "Event types for which any integration can listen.Used only for the ability to query on possible values",
+            "fields": null
+        }
+    }
+}

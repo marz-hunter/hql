@@ -1,0 +1,59 @@
+{
+    "variables": {
+        "input0": {
+            "clientMutationId": "0",
+            "errors": "",
+            "user_identity": "",
+            "was_successful": ""
+        }
+    },
+    "query": "mutation ($input0:SaveUnverifiableResidencyVerificationInput!) {
+		saveUnverifiableResidencyVerification(input:$input0) {
+			clientMutationId,
+			user_identity {
+				active_citizenship_verification_url,
+				active_residency_verification_url,
+				background_checked,
+				citizenship_verification_limit_reached,
+				citizenship_verifications(first:5) {
+					edges {
+						node {
+							country_code,
+							id,
+							nationality,
+						},
+					},
+					nodes {
+						country_code,
+						id,
+						nationality,
+					},
+				},
+				citizenship_verified,
+				citizenships,
+				has_unverifiable_citizenship,
+				has_unverifiable_residency,
+				id,
+				identity_verified,
+				meets_idv_one_valid_report_criteria,
+				residency_verification_limit_reached,
+				residency_verifications(first:5) {
+					edges {
+						node {
+							id,
+							nationality,
+						},
+					},
+					nodes {
+						id,
+						nationality,
+					},
+				},
+				residency_verified,
+				rules_of_engagement_signed,
+				rules_of_engagement_status,
+			},
+			was_successful,
+		}
+	}"
+}

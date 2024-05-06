@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "CustomFieldAttributeUnion",
+            "description": "CustomFieldAttributes can be of multiple types",
+            "fields": null
+        }
+    }
+}

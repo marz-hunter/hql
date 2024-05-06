@@ -1,0 +1,29 @@
+{
+    "data": {
+        "__type": {
+            "name": "LabeledIntegerPair",
+            "description": "A pair of a label and an integer",
+            "fields": [
+                {
+                    "name": "label",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "String",
+                            "kind": "SCALAR"
+                        }
+                    }
+                },
+                {
+                    "name": "value",
+                    "type": {
+                        "name": "Int",
+                        "kind": "SCALAR",
+                        "ofType": null
+                    }
+                }
+            ]
+        }
+    }
+}

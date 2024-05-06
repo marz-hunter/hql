@@ -1,0 +1,18 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		llmappedge {
+			node {
+				color,
+				created_at,
+				description,
+				id,
+				instructions,
+				name,
+				placeholder,
+			},
+		}
+	}"
+}

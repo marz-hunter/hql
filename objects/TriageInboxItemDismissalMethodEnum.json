@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "TriageInboxItemDismissalMethodEnum",
+            "description": "Valid values for the dismissal method of triage inbox items",
+            "fields": null
+        }
+    }
+}

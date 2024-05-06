@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "BountyTableHistoryOrderField",
+            "description": "Fields on which a collection of bounty table histories can be ordered",
+            "fields": null
+        }
+    }
+}

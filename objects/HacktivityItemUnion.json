@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "HacktivityItemUnion",
+            "description": "Hacktivities can be of multiple types",
+            "fields": null
+        }
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		createseverityfromhashpayload {
+			clientMutationId,
+			errors(first:5) {
+				edges {
+					node {
+						error_code,
+						field,
+						id,
+						message,
+						type,
+					},
+				},
+				nodes {
+					error_code,
+					field,
+					id,
+					message,
+					type,
+				},
+				total_count,
+			},
+			severity {
+				_id,
+				attack_complexity,
+				attack_vector,
+				author_type,
+				availability,
+				availability_requirement,
+				calculation_method,
+				confidentiality,
+				confidentiality_requirement,
+				created_at,
+				cvss_vector_string,
+				id,
+				integrity,
+				integrity_requirement,
+				max_severity,
+				privileges_required,
+				rating,
+				report_id,
+				scope,
+				score,
+				score_by_rating,
+				team_id,
+				user_id,
+				user_interaction,
+			},
+			was_successful,
+		}
+	}"
+}

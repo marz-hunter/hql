@@ -1,0 +1,21 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		automationedge {
+			node {
+				_id,
+				active,
+				config,
+				created_at,
+				events,
+				id,
+				lambda_arn,
+				title,
+				trigger_type,
+				updated_at,
+			},
+		}
+	}"
+}

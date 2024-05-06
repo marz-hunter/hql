@@ -1,0 +1,20 @@
+{
+    "variables": {
+        "input0": {
+            "clientMutationId": "0",
+            "errors": "",
+            "was_successful": "",
+            "write_up_preview": ""
+        }
+    },
+    "query": "mutation ($input0:CreateWriteUpPreviewInput!) {
+		createWriteUpPreview(input:$input0) {
+			clientMutationId,
+			was_successful,
+			write_up_preview {
+				content,
+				id,
+			},
+		}
+	}"
+}

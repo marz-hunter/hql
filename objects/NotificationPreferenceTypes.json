@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "NotificationPreferenceTypes",
+            "description": "Possible types for NotificationPreference",
+            "fields": null
+        }
+    }
+}

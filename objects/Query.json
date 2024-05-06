@@ -1,0 +1,721 @@
+{
+    "data": {
+        "__type": {
+            "name": "Query",
+            "description": "Root entity of the Hackerone Schema",
+            "fields": [
+                {
+                    "name": "activity",
+                    "type": {
+                        "name": "ActivityUnion",
+                        "kind": "UNION",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "analytics",
+                    "type": {
+                        "name": null,
+                        "kind": "LIST",
+                        "ofType": {
+                            "name": "AnalyticsDataPoint",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "analytics_reports",
+                    "type": {
+                        "name": "AnalyticsReportConnection",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "application",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "Application",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "assets",
+                    "type": {
+                        "name": "AssetConnection",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "assignable_teams",
+                    "type": {
+                        "name": "TeamConnection",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "automation",
+                    "type": {
+                        "name": "Automation",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "automation_templates",
+                    "type": {
+                        "name": "AutomationTemplateConnection",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "background_check",
+                    "type": {
+                        "name": "BackgroundCheck",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "bank_transfer_reference",
+                    "type": {
+                        "name": "BankTransferReference",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "campaign_objectives",
+                    "type": {
+                        "name": "CampaignObjectiveConnection",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "certifications",
+                    "type": {
+                        "name": "CertificationConnection",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "clusters",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "ClusterConnection",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "cve_entry",
+                    "type": {
+                        "name": "RankedCveEntry",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "cwe_entries",
+                    "type": {
+                        "name": "CweEntryConnection",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "cwe_entry",
+                    "type": {
+                        "name": "CweEntry",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "dashboard_states",
+                    "type": {
+                        "name": "DashboardStateConnection",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "document",
+                    "type": {
+                        "name": "DocumentResult",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "embedded_submission_form",
+                    "type": {
+                        "name": "EmbeddedSubmissionForm",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "experimental_dream_box_chat",
+                    "type": {
+                        "name": "ChatMessage",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "external_program",
+                    "type": {
+                        "name": "ExternalProgram",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "external_programs",
+                    "type": {
+                        "name": "ExternalProgramConnection",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "features",
+                    "type": {
+                        "name": "FeatureConnection",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "gateway_users",
+                    "type": {
+                        "name": "GatewayUserConnection",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "hacker_comment_classification",
+                    "type": {
+                        "name": "HackerCommentClassification",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "hacktivity_items",
+                    "type": {
+                        "name": "HacktivityItemConnection",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "hacktivity_search",
+                    "type": {
+                        "name": "SearchResultConnection",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "id",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "ID",
+                            "kind": "SCALAR"
+                        }
+                    }
+                },
+                {
+                    "name": "id_verification",
+                    "type": {
+                        "name": "IdVerification",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "label_categories",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "LabelCategoryConnection",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "languages",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": null,
+                            "kind": "LIST"
+                        }
+                    }
+                },
+                {
+                    "name": "leaderboard_entries",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "LeaderboardEntryConnection",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "llm_apps",
+                    "type": {
+                        "name": "LlmAppConnection",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "machine_learning_inference_result",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "MachineLearningInferenceResult",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "maintenance_banner",
+                    "type": {
+                        "name": "MaintenanceBanner",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "me",
+                    "type": {
+                        "name": "User",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "mediation_requests",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "MediationRequestConnection",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "most_used_asset_types",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": null,
+                            "kind": "LIST"
+                        }
+                    }
+                },
+                {
+                    "name": "most_used_technologies",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": null,
+                            "kind": "LIST"
+                        }
+                    }
+                },
+                {
+                    "name": "node",
+                    "type": {
+                        "name": "Node",
+                        "kind": "INTERFACE",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "oauth_application",
+                    "type": {
+                        "name": "OauthApplication",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "opportunities_search",
+                    "type": {
+                        "name": "SearchResultConnection",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "organization",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "Organization",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "organization_inboxes",
+                    "type": {
+                        "name": "OrganizationInboxConnection",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "organizations",
+                    "type": {
+                        "name": "OrganizationConnection",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "pentest",
+                    "type": {
+                        "name": "Pentest",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "pentest_opportunities",
+                    "type": {
+                        "name": "PentestOpportunityConnection",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "pentest_opportunity",
+                    "type": {
+                        "name": "PentestOpportunity",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "pentest_opportunity_status",
+                    "type": {
+                        "name": "Hash",
+                        "kind": "SCALAR",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "pentester_positions",
+                    "type": {
+                        "name": "PentesterPositionConnection",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "pentester_profiles",
+                    "type": {
+                        "name": "PentesterProfileConnection",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "pentests",
+                    "type": {
+                        "name": "PentestConnection",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "popular_now",
+                    "type": {
+                        "name": null,
+                        "kind": "LIST",
+                        "ofType": {
+                            "name": null,
+                            "kind": "NON_NULL"
+                        }
+                    }
+                },
+                {
+                    "name": "program_analytics",
+                    "type": {
+                        "name": null,
+                        "kind": "LIST",
+                        "ofType": {
+                            "name": "DataPoint",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "program_analytics_benchmarks",
+                    "type": {
+                        "name": null,
+                        "kind": "LIST",
+                        "ofType": {
+                            "name": "DataPoint",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "query",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "Query",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "ranked_cve_entries",
+                    "type": {
+                        "name": "RankedCveEntryConnection",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "ranked_weaknesses_by_year",
+                    "type": {
+                        "name": "RankedWeaknessByYearConnection",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "report_retest_user",
+                    "type": {
+                        "name": "ReportRetestUser",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "report_retests",
+                    "type": {
+                        "name": "ReportRetestConnection",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "report_triage_summary_examples",
+                    "type": {
+                        "name": "ReportTriageSummaryExampleConnection",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "reports",
+                    "type": {
+                        "name": "ReportConnection",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "resource",
+                    "type": {
+                        "name": "ResourceInterface",
+                        "kind": "INTERFACE",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "response_target_benchmarks",
+                    "type": {
+                        "name": "MinMax",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "search",
+                    "type": {
+                        "name": "SearchResultConnection",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "severity_calculator",
+                    "type": {
+                        "name": "SeverityCalculator",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "skills",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "SkillConnection",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "static_dashboards",
+                    "type": {
+                        "name": null,
+                        "kind": "LIST",
+                        "ofType": {
+                            "name": null,
+                            "kind": "NON_NULL"
+                        }
+                    }
+                },
+                {
+                    "name": "surveys",
+                    "type": {
+                        "name": "SurveyConnection",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "tasks",
+                    "type": {
+                        "name": "TaskConnection",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "teams",
+                    "type": {
+                        "name": "TeamConnection",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "terms",
+                    "type": {
+                        "name": "TermConnection",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "time_zones",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": null,
+                            "kind": "LIST"
+                        }
+                    }
+                },
+                {
+                    "name": "top_technology_tags",
+                    "type": {
+                        "name": "TopTechnologyTagConnection",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "tray_solution_instance_url",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "String",
+                            "kind": "SCALAR"
+                        }
+                    }
+                },
+                {
+                    "name": "triage_inbox",
+                    "type": {
+                        "name": "TriageInbox",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "triage_inbox_items",
+                    "type": {
+                        "name": "TriageInboxItemConnection",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "triage_pods",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "TriagePodConnection",
+                            "kind": "OBJECT"
+                        }
+                    }
+                },
+                {
+                    "name": "users",
+                    "type": {
+                        "name": "UserConnection",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "weaknesses",
+                    "type": {
+                        "name": "WeaknessConnection",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "webhook",
+                    "type": {
+                        "name": "Webhook",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                }
+            ]
+        }
+    }
+}

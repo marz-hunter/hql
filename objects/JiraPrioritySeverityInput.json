@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "JiraPrioritySeverityInput",
+            "description": null,
+            "fields": null
+        }
+    }
+}

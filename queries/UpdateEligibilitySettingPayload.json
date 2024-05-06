@@ -1,0 +1,40 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		updateeligibilitysettingpayload {
+			clientMutationId,
+			eligibility_setting {
+				_id,
+				allowed_domains,
+				allowed_domains_enabled,
+				created_at,
+				id,
+				name,
+				organization_id,
+				updated_at,
+			},
+			errors(first:5) {
+				edges {
+					node {
+						error_code,
+						field,
+						id,
+						message,
+						type,
+					},
+				},
+				nodes {
+					error_code,
+					field,
+					id,
+					message,
+					type,
+				},
+				total_count,
+			},
+			was_successful,
+		}
+	}"
+}

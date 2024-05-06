@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "SpotCheckUserTypeStates",
+            "description": "States for a spot check report",
+            "fields": null
+        }
+    }
+}

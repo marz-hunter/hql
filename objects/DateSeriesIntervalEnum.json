@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "DateSeriesIntervalEnum",
+            "description": "Intervals that can be used for date series",
+            "fields": null
+        }
+    }
+}

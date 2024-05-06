@@ -1,0 +1,14 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		reporthostscopematch {
+			host,
+			id,
+			match,
+			scope,
+			structured_scope_asset_identifier,
+		}
+	}"
+}

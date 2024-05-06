@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "SamlTestStateEnumInput",
+            "description": "SAML Test State",
+            "fields": null
+        }
+    }
+}

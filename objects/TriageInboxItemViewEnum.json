@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "TriageInboxItemViewEnum",
+            "description": "Valid views for the triage inbox item connection",
+            "fields": null
+        }
+    }
+}

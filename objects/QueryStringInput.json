@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "QueryStringInput",
+            "description": null,
+            "fields": null
+        }
+    }
+}

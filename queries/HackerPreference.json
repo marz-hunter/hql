@@ -1,0 +1,17 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		hackerpreference {
+			availability,
+			collaboration,
+			has_asset_type_preferences,
+			has_weakness_preferences,
+			id,
+			is_interested_in_collaboration,
+			level,
+			opportunity_types,
+		}
+	}"
+}

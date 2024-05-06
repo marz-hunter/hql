@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "LeaderboardEntryUnion",
+            "description": "The different types of leaderboards that exist. Type that is returned is based on the key that is passed, and is linked to LeaderboardKeyEnum",
+            "fields": null
+        }
+    }
+}

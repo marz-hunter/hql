@@ -1,0 +1,27 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		policysetting {
+			_id,
+			has_policy,
+			has_structured_policy,
+			i_can_subscribe_to_policy_changes,
+			i_can_view_policy_versions,
+			id,
+			last_policy_change_at,
+			policy,
+			structured_policy {
+				brand_promise,
+				id,
+				preferences,
+				process,
+				safe_harbor,
+				scope,
+				url,
+			},
+			subscribed,
+		}
+	}"
+}

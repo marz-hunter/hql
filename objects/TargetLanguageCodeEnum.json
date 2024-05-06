@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "TargetLanguageCodeEnum",
+            "description": "Support languages the backend system can translate to.",
+            "fields": null
+        }
+    }
+}

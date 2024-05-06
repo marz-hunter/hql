@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "InboxViewUnion",
+            "description": "Inbox Views can be of multiple types",
+            "fields": null
+        }
+    }
+}

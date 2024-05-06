@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "SeverityMaxSeverityEnum",
+            "description": "Severity max severity",
+            "fields": null
+        }
+    }
+}

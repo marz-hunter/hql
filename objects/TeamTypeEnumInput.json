@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "TeamTypeEnumInput",
+            "description": "All possible engagement types",
+            "fields": null
+        }
+    }
+}

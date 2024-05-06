@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "VpnStateEnumInput",
+            "description": "VPN states",
+            "fields": null
+        }
+    }
+}

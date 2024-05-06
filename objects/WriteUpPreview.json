@@ -1,0 +1,29 @@
+{
+    "data": {
+        "__type": {
+            "name": "WriteUpPreview",
+            "description": "Write-up preview specified in a HackerOne object",
+            "fields": [
+                {
+                    "name": "content",
+                    "type": {
+                        "name": "String",
+                        "kind": "SCALAR",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "id",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "ID",
+                            "kind": "SCALAR"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "AuditLogEvent",
+            "description": "Event name for an audit log item",
+            "fields": null
+        }
+    }
+}

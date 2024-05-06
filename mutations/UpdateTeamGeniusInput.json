@@ -1,0 +1,23 @@
+{
+    "variables": {
+        "input0": {
+            "clientMutationId": "0",
+            "errors": "",
+            "team_genius": "",
+            "was_successful": ""
+        }
+    },
+    "query": "mutation ($input0:UpdateTeamGeniusInput!) {
+		updateTeamGenius(input:$input0) {
+			clientMutationId,
+			team_genius {
+				_id,
+				description,
+				id,
+				muted,
+				name,
+			},
+			was_successful,
+		}
+	}"
+}

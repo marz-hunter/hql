@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "TriageWorkflowJiraEscalationEnum",
+            "description": "Valid views for the triage workflow jira escalation field",
+            "fields": null
+        }
+    }
+}

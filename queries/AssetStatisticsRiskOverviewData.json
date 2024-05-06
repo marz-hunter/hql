@@ -1,0 +1,13 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		assetstatisticsriskoverviewdata {
+			bounties_paid,
+			new_reports,
+			percentage_change_reports,
+			tag_name,
+		}
+	}"
+}

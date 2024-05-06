@@ -1,0 +1,17 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		bundlesubscription {
+			_id,
+			awarding_retesters,
+			can_expire,
+			handled_by_triage,
+			id,
+			tag,
+			triage,
+			url,
+		}
+	}"
+}

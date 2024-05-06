@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "CweEntryOrderField",
+            "description": "Fields on which a collection of cwe entries can be ordered",
+            "fields": null
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "variables": {
+        "input0": {
+            "attachments": "",
+            "clientMutationId": "0",
+            "errors": "",
+            "was_successful": ""
+        }
+    },
+    "query": "mutation ($input0:UploadScopeAttachmentsInput!) {
+		uploadScopeAttachments(input:$input0) {
+			attachments,
+			clientMutationId,
+			was_successful,
+		}
+	}"
+}

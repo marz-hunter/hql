@@ -1,0 +1,26 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		teamasmtagconnection {
+			edges {
+				node {
+					_id,
+					category_name,
+					has_scope,
+					id,
+					tag_name,
+				},
+			},
+			nodes {
+				_id,
+				category_name,
+				has_scope,
+				id,
+				tag_name,
+			},
+			total_count,
+		}
+	}"
+}

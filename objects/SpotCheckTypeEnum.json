@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "SpotCheckTypeEnum",
+            "description": "types of SpotCheck",
+            "fields": null
+        }
+    }
+}

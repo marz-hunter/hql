@@ -1,0 +1,17 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		connectedrepository {
+			_id,
+			default_branch,
+			description,
+			id,
+			name,
+			needs_review,
+			sha,
+			url,
+		}
+	}"
+}

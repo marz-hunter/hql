@@ -1,0 +1,32 @@
+{
+    "data": {
+        "__type": {
+            "name": "UserProductAnalytics",
+            "description": "A HackerOne user product analytics object",
+            "fields": [
+                {
+                    "name": "amplitude_id",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "String",
+                            "kind": "SCALAR"
+                        }
+                    }
+                },
+                {
+                    "name": "id",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "ID",
+                            "kind": "SCALAR"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

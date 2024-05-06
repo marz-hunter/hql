@@ -1,0 +1,20 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		staticdashboardaxis {
+			color,
+			darkModeColor,
+			format,
+			hide_when_empty,
+			id,
+			label,
+			lightModeColor,
+			query_key,
+			select_field,
+			tooltip,
+			type,
+		}
+	}"
+}

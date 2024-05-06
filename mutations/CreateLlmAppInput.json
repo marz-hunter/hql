@@ -1,0 +1,25 @@
+{
+    "variables": {
+        "input0": {
+            "clientMutationId": "0",
+            "errors": "",
+            "llm_app": "",
+            "was_successful": ""
+        }
+    },
+    "query": "mutation ($input0:CreateLlmAppInput!) {
+		createLlmApp(input:$input0) {
+			clientMutationId,
+			llm_app {
+				color,
+				created_at,
+				description,
+				id,
+				instructions,
+				name,
+				placeholder,
+			},
+			was_successful,
+		}
+	}"
+}

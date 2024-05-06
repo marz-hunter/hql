@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "SurveyRatingItemSubjectUnion",
+            "description": "The actor of an survey rating item",
+            "fields": null
+        }
+    }
+}

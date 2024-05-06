@@ -1,0 +1,57 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		llmconversationedge {
+			node {
+				_id,
+				context_object {
+					cve_ids,
+					cwe_ids,
+					id,
+					report_ids,
+					team_handles,
+				},
+				id,
+				llm_app {
+					color,
+					created_at,
+					description,
+					id,
+					instructions,
+					name,
+					placeholder,
+				},
+				llm_conversation_messages(first:5) {
+					edges {
+						node {
+							_id,
+							author,
+							created_at,
+							id,
+							message_index,
+							messages,
+							state,
+							was_useful,
+						},
+					},
+					nodes {
+						_id,
+						author,
+						created_at,
+						id,
+						message_index,
+						messages,
+						state,
+						was_useful,
+					},
+					total_count,
+				},
+				next_prompts,
+				subtitle,
+				title,
+			},
+		}
+	}"
+}

@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "AuditLogSourceTypeEnumInput",
+            "description": "Types of a system call names for audit log.",
+            "fields": null
+        }
+    }
+}

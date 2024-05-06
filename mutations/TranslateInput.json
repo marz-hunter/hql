@@ -1,0 +1,21 @@
+{
+    "variables": {
+        "input0": {
+            "clientMutationId": "0",
+            "errors": "",
+            "translation": "",
+            "was_successful": ""
+        }
+    },
+    "query": "mutation ($input0:TranslateInput!) {
+		translate(input:$input0) {
+			clientMutationId,
+			translation {
+				id,
+				strings,
+				was_successful,
+			},
+			was_successful,
+		}
+	}"
+}

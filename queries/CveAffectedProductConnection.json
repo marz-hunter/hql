@@ -1,0 +1,36 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		cveaffectedproductconnection {
+			edges {
+				node {
+					cpe_23_uri,
+					cve_id,
+					id,
+					product,
+					vendor,
+					version,
+					version_end_excluding,
+					version_end_including,
+					version_start_excluding,
+					version_start_including,
+				},
+			},
+			nodes {
+				cpe_23_uri,
+				cve_id,
+				id,
+				product,
+				vendor,
+				version,
+				version_end_excluding,
+				version_end_including,
+				version_start_excluding,
+				version_start_including,
+			},
+			total_count,
+		}
+	}"
+}

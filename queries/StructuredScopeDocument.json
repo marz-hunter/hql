@@ -1,0 +1,27 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		structuredscopedocument {
+			_id,
+			asm_system_tags,
+			asset_type,
+			attachments,
+			availability_requirement,
+			confidentiality_requirement,
+			created_at,
+			cvss_score,
+			display_name,
+			eligible_for_bounty,
+			eligible_for_submission,
+			id,
+			identifier,
+			instruction,
+			integrity_requirement,
+			new,
+			total_resolved_reports,
+			updated_at,
+		}
+	}"
+}

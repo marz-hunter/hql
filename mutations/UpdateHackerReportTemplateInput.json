@@ -1,0 +1,34 @@
+{
+    "variables": {
+        "input0": {
+            "clientMutationId": "0",
+            "errors": "",
+            "hacker_report_template": "",
+            "was_successful": ""
+        }
+    },
+    "query": "mutation ($input0:UpdateHackerReportTemplateInput!) {
+		updateHackerReportTemplate(input:$input0) {
+			clientMutationId,
+			hacker_report_template {
+				attack_complexity,
+				attack_vector,
+				availability,
+				body,
+				confidentiality,
+				cwe,
+				id,
+				impact,
+				integrity,
+				privileges_required,
+				rating,
+				scope,
+				score,
+				severity,
+				title,
+				user_interaction,
+			},
+			was_successful,
+		}
+	}"
+}

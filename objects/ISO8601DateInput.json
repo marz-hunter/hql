@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "ISO8601DateInput",
+            "description": "An ISO 8601-encoded date",
+            "fields": null
+        }
+    }
+}

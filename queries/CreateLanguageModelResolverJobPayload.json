@@ -1,0 +1,36 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		createlanguagemodelresolverjobpayload {
+			clientMutationId,
+			errors(first:5) {
+				edges {
+					node {
+						error_code,
+						field,
+						id,
+						message,
+						type,
+					},
+				},
+				nodes {
+					error_code,
+					field,
+					id,
+					message,
+					type,
+				},
+				total_count,
+			},
+			language_model_resolver_job {
+				_id,
+				id,
+				response,
+				state,
+			},
+			was_successful,
+		}
+	}"
+}

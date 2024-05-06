@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "RetestSubscriptionTag",
+            "description": "Different types of a retesting subscription",
+            "fields": null
+        }
+    }
+}

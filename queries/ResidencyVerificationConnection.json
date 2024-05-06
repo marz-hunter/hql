@@ -1,0 +1,19 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		residencyverificationconnection {
+			edges {
+				node {
+					id,
+					nationality,
+				},
+			},
+			nodes {
+				id,
+				nationality,
+			},
+		}
+	}"
+}

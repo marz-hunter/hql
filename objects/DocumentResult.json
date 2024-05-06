@@ -1,0 +1,29 @@
+{
+    "data": {
+        "__type": {
+            "name": "DocumentResult",
+            "description": "Document result object",
+            "fields": [
+                {
+                    "name": "blob",
+                    "type": {
+                        "name": "String",
+                        "kind": "SCALAR",
+                        "ofType": null
+                    }
+                },
+                {
+                    "name": "id",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "ID",
+                            "kind": "SCALAR"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

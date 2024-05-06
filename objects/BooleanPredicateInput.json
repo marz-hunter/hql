@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "BooleanPredicateInput",
+            "description": null,
+            "fields": null
+        }
+    }
+}

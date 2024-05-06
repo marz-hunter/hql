@@ -1,0 +1,14 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		hackercommentclassification {
+			_id,
+			id,
+			requires_action,
+			suggested_response,
+			was_useful,
+		}
+	}"
+}

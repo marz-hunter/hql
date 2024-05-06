@@ -1,0 +1,9 @@
+{
+    "variables": {
+        "input0": []
+    },
+    "query": "mutation ($input0:TeamSearchStatisticInput!) {
+		teamSearchStatistic(input:$input0) {
+		}
+	}"
+}

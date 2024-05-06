@@ -1,0 +1,18 @@
+{
+    "data": {
+        "__type": {
+            "name": "ActivitiesInterface",
+            "description": "An interface for Activities on different types",
+            "fields": [
+                {
+                    "name": "activities",
+                    "type": {
+                        "name": "ActivityConnection",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		writeupedge {
+			node {
+				_id,
+				data_overrides,
+				id,
+				template_config_key,
+			},
+		}
+	}"
+}

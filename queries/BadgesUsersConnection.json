@@ -1,0 +1,29 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		badgesusersconnection {
+			edges {
+				awarded_at,
+				node {
+					_id,
+					category,
+					description,
+					id,
+					image_path,
+					name,
+				},
+			},
+			nodes {
+				_id,
+				category,
+				description,
+				id,
+				image_path,
+				name,
+			},
+			total_count,
+		}
+	}"
+}

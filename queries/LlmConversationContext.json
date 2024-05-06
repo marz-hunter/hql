@@ -1,0 +1,14 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		llmconversationcontext {
+			cve_ids,
+			cwe_ids,
+			id,
+			report_ids,
+			team_handles,
+		}
+	}"
+}

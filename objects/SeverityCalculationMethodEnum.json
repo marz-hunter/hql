@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "SeverityCalculationMethodEnum",
+            "description": "Severity calculation method",
+            "fields": null
+        }
+    }
+}

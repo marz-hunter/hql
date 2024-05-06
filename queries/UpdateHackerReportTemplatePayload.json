@@ -1,0 +1,48 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		updatehackerreporttemplatepayload {
+			clientMutationId,
+			errors(first:5) {
+				edges {
+					node {
+						error_code,
+						field,
+						id,
+						message,
+						type,
+					},
+				},
+				nodes {
+					error_code,
+					field,
+					id,
+					message,
+					type,
+				},
+				total_count,
+			},
+			hacker_report_template {
+				attack_complexity,
+				attack_vector,
+				availability,
+				body,
+				confidentiality,
+				cwe,
+				id,
+				impact,
+				integrity,
+				privileges_required,
+				rating,
+				scope,
+				score,
+				severity,
+				title,
+				user_interaction,
+			},
+			was_successful,
+		}
+	}"
+}

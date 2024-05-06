@@ -1,0 +1,9 @@
+{
+    "variables": {
+        "input0": []
+    },
+    "query": "mutation ($input0:FiltersTeamIndustryFilterInput!) {
+		filtersTeamIndustryFilter(input:$input0) {
+		}
+	}"
+}

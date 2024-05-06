@@ -1,0 +1,18 @@
+{
+    "data": {
+        "__type": {
+            "name": "NotificationPreferencesInterface",
+            "description": "An interface for NotificationPreferences on different types",
+            "fields": [
+                {
+                    "name": "notification_preferences",
+                    "type": {
+                        "name": "NotificationPreferenceConnection",
+                        "kind": "OBJECT",
+                        "ofType": null
+                    }
+                }
+            ]
+        }
+    }
+}

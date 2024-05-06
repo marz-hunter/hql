@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "SkillProficiencyEnum",
+            "description": "All valid skill proficiencies",
+            "fields": null
+        }
+    }
+}

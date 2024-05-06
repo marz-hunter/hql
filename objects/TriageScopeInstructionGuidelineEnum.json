@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "TriageScopeInstructionGuidelineEnum",
+            "description": "Triage Scope instruction guideline enum",
+            "fields": null
+        }
+    }
+}

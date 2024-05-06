@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "SurveyEligibilityStatusEnum",
+            "description": "All valid survey eligibility status values",
+            "fields": null
+        }
+    }
+}

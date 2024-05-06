@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "SurveyStructuredResponseTypeEnum",
+            "description": "Survey Structured Response types",
+            "fields": null
+        }
+    }
+}

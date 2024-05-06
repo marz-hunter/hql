@@ -1,0 +1,18 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		profilemetricssnapshot {
+			average_bounty_per_severity_critical,
+			average_bounty_per_severity_high,
+			average_bounty_per_severity_low,
+			average_bounty_per_severity_medium,
+			id,
+			report_count_per_severity_critical,
+			report_count_per_severity_high,
+			report_count_per_severity_low,
+			report_count_per_severity_medium,
+		}
+	}"
+}

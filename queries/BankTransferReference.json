@@ -1,0 +1,59 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		banktransferreference {
+			beneficiary_required_details {
+				bank_account_country,
+				beneficiary_country,
+				beneficiary_required_details(first:5) {
+					edges {
+						node {
+							beneficiary_entity_type,
+							beneficiary_required_fields {
+								total_count,
+							},
+							description,
+							fee,
+							id,
+							payment_type,
+						},
+					},
+					nodes {
+						beneficiary_entity_type,
+						beneficiary_required_fields {
+							nodes {
+								description,
+								field,
+								id,
+								regex,
+								section,
+							},
+							total_count,
+						},
+						description,
+						fee,
+						id,
+						payment_type,
+					},
+					total_count,
+				},
+				currency,
+				id,
+			},
+			countries {
+				alpha2,
+				currency_code,
+				id,
+				name,
+			},
+			currencies {
+				code,
+				id,
+				name,
+			},
+			id,
+		}
+	}"
+}

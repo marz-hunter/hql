@@ -1,0 +1,17 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		rankedweaknessbyyear {
+			id,
+			industry,
+			rank,
+			rank_prev_year,
+			weakness_external_id,
+			weakness_id,
+			weakness_name,
+			year,
+		}
+	}"
+}

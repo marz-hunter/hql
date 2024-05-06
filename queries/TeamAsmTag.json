@@ -1,0 +1,14 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		teamasmtag {
+			_id,
+			category_name,
+			has_scope,
+			id,
+			tag_name,
+		}
+	}"
+}

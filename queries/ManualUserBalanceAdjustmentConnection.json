@@ -1,0 +1,26 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		manualuserbalanceadjustmentconnection {
+			edges {
+				node {
+					amount,
+					category,
+					created_at,
+					id,
+					note,
+				},
+			},
+			nodes {
+				amount,
+				category,
+				created_at,
+				id,
+				note,
+			},
+			total_count,
+		}
+	}"
+}

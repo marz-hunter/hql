@@ -1,0 +1,42 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		customfieldattributescheckbox {
+			_id,
+			archived_at,
+			checkbox_text,
+			created_at,
+			custom_field_values(first:5) {
+				edges {
+					node {
+						_id,
+						created_at,
+						id,
+						updated_at,
+						value,
+					},
+				},
+				nodes {
+					_id,
+					created_at,
+					id,
+					updated_at,
+					value,
+				},
+				total_count,
+			},
+			error_message,
+			field_type,
+			helper_text,
+			id,
+			internal,
+			key,
+			label,
+			position,
+			required,
+			updated_at,
+		}
+	}"
+}

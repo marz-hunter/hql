@@ -1,0 +1,24 @@
+{
+    "variables": {
+        "input0": {
+            "clientMutationId": "0",
+            "errors": "",
+            "ibb_bounty_table": "",
+            "was_successful": ""
+        }
+    },
+    "query": "mutation ($input0:UpdateIbbBountyTableInput!) {
+		updateIbbBountyTable(input:$input0) {
+			clientMutationId,
+			ibb_bounty_table {
+				_id,
+				critical,
+				high,
+				id,
+				low,
+				medium,
+			},
+			was_successful,
+		}
+	}"
+}

@@ -1,0 +1,12 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		controlledlaunchsetting {
+			controlled_launch_team,
+			id,
+			is_ready_for_public_launch,
+		}
+	}"
+}

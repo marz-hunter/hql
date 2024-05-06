@@ -1,0 +1,16 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		datapoint {
+			additional_data,
+			grouping_data,
+			id,
+			report_ids,
+			report_ids_missed_sla,
+			x,
+			y,
+		}
+	}"
+}

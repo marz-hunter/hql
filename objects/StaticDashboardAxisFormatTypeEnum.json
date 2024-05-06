@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "StaticDashboardAxisFormatTypeEnum",
+            "description": "Static dashboard axis format type enum",
+            "fields": null
+        }
+    }
+}

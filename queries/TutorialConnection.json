@@ -1,0 +1,22 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		tutorialconnection {
+			edges {
+				node {
+					complete,
+					id,
+					type,
+				},
+			},
+			nodes {
+				complete,
+				id,
+				type,
+			},
+			total_count,
+		}
+	}"
+}

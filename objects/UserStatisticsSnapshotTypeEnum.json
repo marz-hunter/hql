@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "UserStatisticsSnapshotTypeEnum",
+            "description": "types available for user statistics",
+            "fields": null
+        }
+    }
+}

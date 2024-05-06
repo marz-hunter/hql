@@ -1,0 +1,17 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		userstatisticssnapshot {
+			_id,
+			id,
+			impact,
+			impact_percentile,
+			rank,
+			reputation,
+			signal,
+			signal_percentile,
+		}
+	}"
+}

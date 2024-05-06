@@ -1,0 +1,17 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		skilledge {
+			node {
+				_id,
+				approved,
+				description,
+				id,
+				name,
+				status,
+			},
+		}
+	}"
+}

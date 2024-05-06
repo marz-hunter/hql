@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "StructuredScopeMethodologyInput",
+            "description": "A pair of a structured scope id and a list of methodologies",
+            "fields": null
+        }
+    }
+}

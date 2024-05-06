@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "ConnectedRepositoryInputType",
+            "description": "A connected repository for a CSA pentest",
+            "fields": null
+        }
+    }
+}

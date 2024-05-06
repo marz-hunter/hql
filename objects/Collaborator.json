@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "Collaborator",
+            "description": "A collaborator on a report",
+            "fields": null
+        }
+    }
+}

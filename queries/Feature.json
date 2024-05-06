@@ -1,0 +1,22 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		feature {
+			_id,
+			created_at,
+			deadline,
+			description,
+			disabled,
+			enabled,
+			global,
+			id,
+			intercom_survey,
+			key,
+			migration_guide_url,
+			opted_in,
+			title,
+		}
+	}"
+}

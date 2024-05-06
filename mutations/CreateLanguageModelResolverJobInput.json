@@ -1,0 +1,22 @@
+{
+    "variables": {
+        "input0": {
+            "clientMutationId": "0",
+            "errors": "",
+            "language_model_resolver_job": "",
+            "was_successful": ""
+        }
+    },
+    "query": "mutation ($input0:CreateLanguageModelResolverJobInput!) {
+		createLanguageModelResolverJob(input:$input0) {
+			clientMutationId,
+			language_model_resolver_job {
+				_id,
+				id,
+				response,
+				state,
+			},
+			was_successful,
+		}
+	}"
+}

@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "VpnInstanceSuspendedEnum",
+            "description": "States of suspension a user's VPN instance can have",
+            "fields": null
+        }
+    }
+}

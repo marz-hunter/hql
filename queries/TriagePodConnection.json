@@ -1,0 +1,22 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		triagepodconnection {
+			edges {
+				node {
+					_id,
+					id,
+					name,
+				},
+			},
+			nodes {
+				_id,
+				id,
+				name,
+			},
+			total_count,
+		}
+	}"
+}

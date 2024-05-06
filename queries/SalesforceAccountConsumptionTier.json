@@ -1,0 +1,21 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		salesforceaccountconsumptiontier {
+			account_id,
+			account_name,
+			bounty_during_sub_sum,
+			days_start_to_end,
+			id,
+			order_type,
+			p_consumption_tier,
+			percent_of_sub,
+			percent_of_tier_awarded,
+			sub_end_date,
+			sub_start_date,
+			team_id,
+		}
+	}"
+}

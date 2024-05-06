@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "SurveyRatingTypesInput",
+            "description": "Different survey rating types",
+            "fields": null
+        }
+    }
+}

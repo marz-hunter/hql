@@ -1,0 +1,52 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		samlproviderdomainconnection {
+			edges {
+				node {
+					created_at,
+					domain,
+					domain_ownership {
+						_id,
+						created_at,
+						domain,
+						id,
+						may_cancel,
+						secret,
+						state,
+						updated_at,
+						verification_content,
+						verification_method,
+						verification_method_label,
+						verified_at,
+					},
+					id,
+					updated_at,
+				},
+			},
+			nodes {
+				created_at,
+				domain,
+				domain_ownership {
+					_id,
+					created_at,
+					domain,
+					id,
+					may_cancel,
+					secret,
+					state,
+					updated_at,
+					verification_content,
+					verification_method,
+					verification_method_label,
+					verified_at,
+				},
+				id,
+				updated_at,
+			},
+			total_count,
+		}
+	}"
+}

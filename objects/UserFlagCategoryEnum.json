@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "UserFlagCategoryEnum",
+            "description": "User flag categories",
+            "fields": null
+        }
+    }
+}

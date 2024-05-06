@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "DupeWindowEligibilityEnum",
+            "description": "The state of eligibility for a report to a dupe window",
+            "fields": null
+        }
+    }
+}

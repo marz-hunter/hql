@@ -1,0 +1,40 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		webhookrequest {
+			_id,
+			created_at,
+			id,
+			request_headers,
+			request_payload,
+			uuid,
+			webhook_responses(first:5) {
+				edges {
+					node {
+						_id,
+						created_at,
+						execution_time,
+						id,
+						response_body,
+						response_code,
+						response_headers,
+						success,
+					},
+				},
+				nodes {
+					_id,
+					created_at,
+					execution_time,
+					id,
+					response_body,
+					response_code,
+					response_headers,
+					success,
+				},
+				total_count,
+			},
+		}
+	}"
+}

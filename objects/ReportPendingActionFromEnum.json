@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "ReportPendingActionFromEnum",
+            "description": "Parties that a report can be pending action from",
+            "fields": null
+        }
+    }
+}

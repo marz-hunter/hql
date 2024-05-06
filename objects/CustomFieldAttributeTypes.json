@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "CustomFieldAttributeTypes",
+            "description": "Possible types of custom field attribute",
+            "fields": null
+        }
+    }
+}

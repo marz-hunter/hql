@@ -1,0 +1,24 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		toptechnologytagconnection {
+			edges {
+				node {
+					_id,
+					count,
+					id,
+					technology,
+				},
+			},
+			nodes {
+				_id,
+				count,
+				id,
+				technology,
+			},
+			total_count,
+		}
+	}"
+}

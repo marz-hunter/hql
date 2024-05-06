@@ -1,0 +1,17 @@
+{
+    "variables": {
+        "input0": {
+            "attachment_url": "",
+            "clientMutationId": "0",
+            "errors": "",
+            "was_successful": ""
+        }
+    },
+    "query": "mutation ($input0:ExportOrganizationSamlDataFileInput!) {
+		exportOrganizationSamlDataFile(input:$input0) {
+			attachment_url,
+			clientMutationId,
+			was_successful,
+		}
+	}"
+}

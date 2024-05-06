@@ -1,0 +1,21 @@
+{
+    "variables": {
+        "var0": "__ARGV2__"
+    },
+    "query": "query ($var0:String!) {
+		taskconnection {
+			edges {
+				node {
+					_id,
+					completed,
+					completed_at,
+					description,
+					id,
+					key,
+					url,
+				},
+			},
+			total_count,
+		}
+	}"
+}
