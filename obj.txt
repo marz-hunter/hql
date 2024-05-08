@@ -1013,6 +1013,9 @@ LabelConnection
 LabelEdge
 LabeledIntegerPair
 LanguageModelResolverJob
+LanguageModelResolverJobVariablesInput
+LanguageModelResolverJobVariablesMessagesInput
+LanguageModelResolversChatRolesEnum
 LaunchCampaignInput
 LaunchCampaignPayload
 LaunchTeamInput

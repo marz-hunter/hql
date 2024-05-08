@@ -1,0 +1,9 @@
+{
+    "data": {
+        "__type": {
+            "name": "LanguageModelResolversChatRolesEnum",
+            "description": "Roles different users can have in a chat",
+            "fields": null
+        }
+    }
+}

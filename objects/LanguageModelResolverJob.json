@@ -16,6 +16,17 @@
                     }
                 },
                 {
+                    "name": "created_at",
+                    "type": {
+                        "name": null,
+                        "kind": "NON_NULL",
+                        "ofType": {
+                            "name": "DateTime",
+                            "kind": "SCALAR"
+                        }
+                    }
+                },
+                {
                     "name": "id",
                     "type": {
                         "name": null,

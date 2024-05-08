@@ -26,6 +26,7 @@
 			},
 			language_model_resolver_job {
 				_id,
+				created_at,
 				id,
 				response,
 				state,

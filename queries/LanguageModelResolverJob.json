@@ -5,6 +5,7 @@
     "query": "query ($var0:String!) {
 		languagemodelresolverjob {
 			_id,
+			created_at,
 			id,
 			response,
 			state,
